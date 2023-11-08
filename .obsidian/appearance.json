@@ -1,0 +1,12 @@
+{
+  "accentColor": "#6a015c",
+  "cssTheme": "Obsidian Nord",
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "diagrams",
+    "ITSTtheme2",
+    "ITSTtheme3"
+  ],
+  "baseFontSize": 17,
+  "textFontFamily": ""
+}
