@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-08 - Java Hello World.md",
-                "mode": "preview",
+                "file": "Snacks/2023-11-09 - snacks.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.51103591918945
+    "width": 315.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "63ccbf656a1929a2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-08 - Java Hello World.md",
+                "file": "Snacks/2023-11-09 - snacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-08 - Java Hello World.md",
+                "file": "Snacks/2023-11-09 - snacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-08 - Java Hello World.md"
+                "file": "Snacks/2023-11-09 - snacks.md"
               }
             }
           },
@@ -160,23 +161,24 @@
   },
   "active": "d6a8a036ce3043d5",
   "lastOpenFiles": [
-    "Workspace/hello-world-2/bin/org/java/Main.class",
-    "Workspace/hello-world-2/bin/org/java",
-    "Workspace/hello-world-2/bin/org",
-    "Workspace/hello-world-2/src/org/java/Main.java",
-    "Workspace/hello-world-2/src/org/java",
-    "Workspace/hello-world-2/src/org",
-    "Workspace/hello-world-2/src",
-    "Workspace/hello-world-2/bin",
-    "Workspace/hello-world-2",
-    "Snacks/2023-11-08 - Java Hello World.md",
-    "Personal/Start lesson command.md",
-    "Workspace/2023.11.08-hello-world/bin/org/java/Main.class",
-    "Workspace/2023.11.08-hello-world/src/org/java/Main.java",
+    "Lives/2023-11-09 - mini snacks.md",
+    "Snacks/2023-11-09 - snacks.md",
+    "Workspace/2023.11.09-snacks/bin/org/java/Snack5.class",
+    "Workspace/2023.11.09-snacks/src/org/java/Snack5.java",
+    "Workspace/2023.11.09-snacks/bin/org/java/Snack4.class",
+    "Workspace/2023.11.09-snacks/src/org/java/Snack4.java",
+    "Workspace/2023.11.09-snacks/bin/org/java/Snack3.class",
+    "Workspace/2023.11.09-snacks/src/org/java/Snack3.java",
+    "Workspace/2023.11.09-snacks/bin/org/java/Snack2.class",
+    "Workspace/2023.11.09-snacks/src/org/java/Snack2.java",
+    "Workspace/2023.11.09-snacks/bin/org/java/Snack1.class",
+    "Workspace/2023.11.09-snacks/bin/org/java",
     "Personal/Slide Pausa.md",
+    "Snacks/2023-11-08 - Java Hello World.md",
+    "Tips & Tricks/Update Vault.md",
+    "Personal/Start lesson command.md",
     "Full Stack Web & Java - Classe 8.md",
     "Personal/Personal folder - Main Instruction.md",
-    "Tips & Tricks/Update Vault.md",
     "Tips & Tricks/Markdown/Markdown + Obsidian.md",
     "Tips & Tricks/Markdown/Slides/Slides demo.md",
     "__assets/images/obsidian update.png",
@@ -204,7 +206,6 @@
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/README.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/lib/helpers/README.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/lib/env/README.md",
-    "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/lib/core/README.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/src/assets/logo.svg"
   ]
 }
