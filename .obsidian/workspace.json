@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ed9a523db43c1ff",
+        "id": "9eb7bf687b43326b",
         "type": "tabs",
         "children": [
           {
-            "id": "d6a8a036ce3043d5",
+            "id": "f507619336e7ef20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-09 - snacks.md",
+                "file": "Snacks/2023-11-10 - snacks 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.51103591918945,
-    "collapsed": true
+    "width": 315.51103591918945
   },
   "right": {
     "id": "63ccbf656a1929a2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-09 - snacks.md",
+                "file": "Snacks/2023-11-10 - snacks 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-09 - snacks.md",
+                "file": "Snacks/2023-11-10 - snacks 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-09 - snacks.md"
+                "file": "Snacks/2023-11-10 - snacks 2.md"
               }
             }
           },
@@ -159,22 +158,25 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "d6a8a036ce3043d5",
+  "active": "f507619336e7ef20",
   "lastOpenFiles": [
-    "Tips & Tricks/Update Vault.md",
+    "Lives/2023-11-10 - snacks.md",
+    "Snacks/2023-11-10 - snacks 2.md",
+    "Workspace/2023.11.10-snacks/bin/org/java/Snack8.class",
+    "Workspace/2023.11.10-snacks/src/org/java/Snack8.java",
+    "Workspace/2023.11.10-snacks/bin/org/java/Snack7.class",
+    "Workspace/2023.11.10-snacks/src/org/java/Snack7.java",
+    "Workspace/2023.11.10-snacks/bin/org/java/Snack6.class",
+    "Workspace/2023.11.10-snacks/src/org/java/Snack6.java",
+    "Workspace/2023.11.10-snacks/bin/org/java/Snack5.class",
+    "Workspace/2023.11.10-snacks/src/org/java/Snack5.java",
+    "Workspace/2023.11.10-snacks/bin/org/java/Snack4.class",
+    "Workspace/2023.11.10-snacks/src/org/java/Snack4.java",
+    "Snacks/Untitled.md",
     "Snacks/2023-11-09 - snacks.md",
-    "Lives/2023-11-09 - mini snacks.md",
-    "Workspace/2023.11.09-snacks/bin/org/java/Snack5.class",
-    "Workspace/2023.11.09-snacks/src/org/java/Snack5.java",
-    "Workspace/2023.11.09-snacks/bin/org/java/Snack4.class",
-    "Workspace/2023.11.09-snacks/src/org/java/Snack4.java",
-    "Workspace/2023.11.09-snacks/bin/org/java/Snack3.class",
-    "Workspace/2023.11.09-snacks/src/org/java/Snack3.java",
-    "Workspace/2023.11.09-snacks/bin/org/java/Snack2.class",
-    "Workspace/2023.11.09-snacks/src/org/java/Snack2.java",
-    "Workspace/2023.11.09-snacks/bin/org/java/Snack1.class",
-    "Workspace/2023.11.09-snacks/bin/org/java",
     "Personal/Slide Pausa.md",
+    "Tips & Tricks/Update Vault.md",
+    "Lives/2023-11-09 - mini snacks.md",
     "Snacks/2023-11-08 - Java Hello World.md",
     "Personal/Start lesson command.md",
     "Full Stack Web & Java - Classe 8.md",
@@ -203,9 +205,6 @@
     "Snacks/2023-10-18 - Spring Il mio fotoalbum.md",
     "Snacks/2023-10-17 - Spring La Mia Pizzeria - VueJS.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/SECURITY.md",
-    "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/README.md",
-    "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/lib/helpers/README.md",
-    "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/lib/env/README.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/src/assets/logo.svg"
   ]
 }
