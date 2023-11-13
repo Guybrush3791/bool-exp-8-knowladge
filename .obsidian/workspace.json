@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9eb7bf687b43326b",
+        "id": "ac8b01503f2de90c",
         "type": "tabs",
         "children": [
           {
-            "id": "f507619336e7ef20",
+            "id": "199d21f0367bfa3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-10 - snacks 2.md",
-                "mode": "source",
+                "file": "Snacks/2023-11-13 - java-oop-shop.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-10 - snacks 2.md",
+                "file": "Snacks/2023-11-13 - java-oop-shop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-10 - snacks 2.md",
+                "file": "Snacks/2023-11-13 - java-oop-shop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-10 - snacks 2.md"
+                "file": "Snacks/2023-11-13 - java-oop-shop.md"
               }
             }
           },
@@ -158,28 +158,30 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "f507619336e7ef20",
+  "active": "199d21f0367bfa3e",
   "lastOpenFiles": [
-    "Personal/Slide Pausa.md",
-    "Personal/Personal folder - Main Instruction.md",
+    "Lives/2023-11-13 - java-oop-valutazioni.md",
+    "Workspace/java-oop-valutazioni/bin/org/lessons/java/valutazioni/Studente.class",
+    "Workspace/java-oop-valutazioni/bin/org/lessons/java/valutazioni",
+    "Workspace/java-oop-valutazioni/src/org/lessons/java/valutazioni/Studente.java",
+    "Workspace/java-oop-valutazioni/src/org/lessons/java/valutazioni",
+    "Workspace/java-oop-valutazioni/bin/org/lessons/java/Main.class",
+    "Workspace/java-oop-valutazioni/bin/org/lessons/java",
+    "Workspace/java-oop-valutazioni/bin/org/lessons",
+    "Workspace/java-oop-valutazioni/bin/org",
+    "Workspace/java-oop-valutazioni/src/org/lessons/java/Main.java",
+    "Workspace/java-oop-valutazioni/src/org/lessons/java",
+    "Snacks/2023-11-13 - java-oop-shop.md",
     "Snacks/2023-11-10 - snacks 2.md",
-    "Lives/2023-11-10 - snacks.md",
-    "Workspace/2023.11.10-snacks/bin/org/java/Snack8.class",
-    "Workspace/2023.11.10-snacks/src/org/java/Snack8.java",
-    "Workspace/2023.11.10-snacks/bin/org/java/Snack7.class",
-    "Workspace/2023.11.10-snacks/src/org/java/Snack7.java",
-    "Workspace/2023.11.10-snacks/bin/org/java/Snack6.class",
-    "Workspace/2023.11.10-snacks/src/org/java/Snack6.java",
-    "Workspace/2023.11.10-snacks/bin/org/java/Snack5.class",
-    "Workspace/2023.11.10-snacks/src/org/java/Snack5.java",
-    "Workspace/2023.11.10-snacks/bin/org/java/Snack4.class",
-    "Workspace/2023.11.10-snacks/src/org/java/Snack4.java",
-    "Snacks/Untitled.md",
+    "Personal/Slide Pausa.md",
+    "Personal/Start lesson command.md",
     "Snacks/2023-11-09 - snacks.md",
+    "Personal/Personal folder - Main Instruction.md",
+    "Lives/2023-11-10 - snacks.md",
+    "Snacks/Untitled.md",
     "Tips & Tricks/Update Vault.md",
     "Lives/2023-11-09 - mini snacks.md",
     "Snacks/2023-11-08 - Java Hello World.md",
-    "Personal/Start lesson command.md",
     "Full Stack Web & Java - Classe 8.md",
     "Tips & Tricks/Markdown/Markdown + Obsidian.md",
     "Tips & Tricks/Markdown/Slides/Slides demo.md",
@@ -202,9 +204,6 @@
     "__assets/images/Pasted image 20231004122752.png",
     "Snacks/2023-10-16 -  Spring La Mia Pizzeria - WebApi.md",
     "Snacks/2023-10-13 - Spring La Mia Pizzeria - Security.md",
-    "Snacks/2023-10-18 - Spring Il mio fotoalbum.md",
-    "Snacks/2023-10-17 - Spring La Mia Pizzeria - VueJS.md",
-    "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/SECURITY.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/src/assets/logo.svg"
   ]
 }
