@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-13 - java-oop-shop.md",
+                "file": "Snacks/2023-11-14 - java-inheritance-shop.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-13 - java-oop-shop.md",
+                "file": "Snacks/2023-11-14 - java-inheritance-shop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-13 - java-oop-shop.md",
+                "file": "Snacks/2023-11-14 - java-inheritance-shop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-13 - java-oop-shop.md"
+                "file": "Snacks/2023-11-14 - java-inheritance-shop.md"
               }
             }
           },
@@ -160,19 +160,20 @@
   },
   "active": "199d21f0367bfa3e",
   "lastOpenFiles": [
-    "Workspace/2023.11.14-java-oop-shop/bin/org/lessons/java/shop/Main.class",
-    "Workspace/2023.11.14-java-oop-shop/src/org/lessons/java/shop/Main.java",
-    "Workspace/2023.11.14-java-oop-shop/bin/org/lessons/java/shop/Prodotto.class",
-    "Workspace/2023.11.14-java-oop-shop/bin/org/lessons/java/shop",
-    "Workspace/2023.11.14-java-oop-shop/bin/org/lessons/java",
-    "Workspace/2023.11.14-java-oop-shop/bin/org/lessons",
-    "Workspace/2023.11.14-java-oop-shop/bin/org",
-    "Workspace/2023.11.14-java-oop-shop/src/org/lessons/java/shop/Prodotto.java",
-    "Workspace/2023.11.14-java-oop-shop/src/org/lessons/java/shop",
-    "Workspace/2023.11.14-java-oop-shop/src/org/lessons/java",
-    "Workspace/2023.11.14-java-oop-shop/src/org/lessons",
-    "Snacks/2023-11-10 - snacks 2.md",
     "Snacks/2023-11-13 - java-oop-shop.md",
+    "Snacks/2023-11-14 - java-inheritance-shop.md",
+    "Lives/2023-11-14 - java oop geometria.md",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape/Parallelepiped.class",
+    "Workspace/2023.11.14-java-oop-geometria/src/org/java/shape/Parallelepiped.java",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/Main.class",
+    "Workspace/2023.11.14-java-oop-geometria/src/org/java/Main.java",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape/Main.class",
+    "Workspace/2023.11.14-java-oop-geometria/src/org/java/shape/Main.java",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape/Rettangolo.class",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org/java",
+    "Workspace/2023.11.14-java-oop-geometria/bin/org",
+    "Snacks/2023-11-10 - snacks 2.md",
     "Snacks/2023-11-09 - snacks.md",
     "Lives/2023-11-13 - java-oop-valutazioni.md",
     "Personal/Slide Pausa.md",
@@ -204,7 +205,6 @@
     "__assets/images/Pasted image 20231003120629.png",
     "__assets/images/Pasted image 20231004122752.png",
     "Snacks/2023-10-16 -  Spring La Mia Pizzeria - WebApi.md",
-    "Snacks/2023-10-13 - Spring La Mia Pizzeria - Security.md",
     "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/src/assets/logo.svg"
   ]
 }
