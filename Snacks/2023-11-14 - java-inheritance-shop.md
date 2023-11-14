@@ -18,6 +18,17 @@ Durante la richiesta di valorizzazione chiedete all'utente se sta inserendo uno 
 
 Al termine dell’inserimento stampate il carrello (fate l’`override` del metodo `toString` per restituire le informazioni da stampare per ogni classe).
 
+```mermaid
+graph TD
+    A[PC: Nuovo elemento?] -->|Sì| B[PC: Quale?]
+    A -->|No| C[Stampa Lista]
+    B -->|Telefono| D[PC: Info per telefono]
+    B -->|Televisore| E[PC: Info per televisore]
+    B -->|Cuffie| F[PC: Info per cuffie]
+    D --> A
+    E --> A
+    F --> A
+```
 ### BONUS
 Aggiungete alla classe `Prodotto` un metodo per il calcolo del **prezzo scontato per clienti con tessera fedeltà**, che applica al prezzo uno sconto base del **2%**:
 - `Smartphone`, lo sconto è del **5%** se la quantità di memoria è **inferiore a 32GB**, altrimenti rimane del 2%

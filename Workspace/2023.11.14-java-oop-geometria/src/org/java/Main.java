@@ -1,9 +1,6 @@
 package org.java;
 
-import java.time.Period;
 import java.util.Random;
-
-import javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction;
 
 import org.java.shape.Parallelepiped;
 import org.java.shape.Rettangolo;
