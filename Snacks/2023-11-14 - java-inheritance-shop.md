@@ -7,7 +7,7 @@ Nell’esercizio di oggi riprendiamo [[2023-11-13 - java-oop-shop|Java Shop]] ap
 > [!attention] Copiare la classe `Prodotto` dall'[[2023-11-13 - java-oop-shop|esercizio precedente]]
 
 Lo shop gestisce diversi tipi di prodotto: 
-- **Smarphone**: caratterizzati dal **codice IMEI** e dalla **quantità di memoria**
+- **Smartphone**: caratterizzati dal **codice IMEI** e dalla **quantità di memoria**
 - **Televisori**: caratterizzati dalle **dimensioni** e dalla proprietà di essere **smart oppure no**
 - **Cuffie**: caratterizzate dal **colore** e se sono **wireless o cablate**
 

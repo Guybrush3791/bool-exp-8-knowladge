@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-14 - java-inheritance-shop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c521d6661bb414f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tips & Tricks/Markdown/Markdown + Obsidian.md",
-                "mode": "source",
+                "file": "Snacks/2023-11-15 - java-exceptions-books.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.51103591918945
+    "width": 315.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "63ccbf656a1929a2",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-14 - java-inheritance-shop.md",
+                "file": "Snacks/2023-11-15 - java-exceptions-books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-14 - java-inheritance-shop.md",
+                "file": "Snacks/2023-11-15 - java-exceptions-books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-14 - java-inheritance-shop.md"
+                "file": "Snacks/2023-11-15 - java-exceptions-books.md"
               }
             }
           },
@@ -172,21 +161,23 @@
   },
   "active": "199d21f0367bfa3e",
   "lastOpenFiles": [
-    "Personal/Test.md",
-    "Tips & Tricks/Markdown/Markdown + Obsidian.md",
+    "Lives/2023-11-15 - Exception & File.md",
+    "Snacks/2023-11-15 - java-exceptions-books.md",
+    "Workspace/2023.11.15-java-exception-1/bin/org/java/ExceptionFileEx.class",
+    "Workspace/2023.11.15-java-exception-1/src/org/java/ExceptionFileEx.java",
+    "Workspace/2023.11.15-java-exception-1/bin/org/java/blog/exception/PasswordException.class",
+    "Workspace/2023.11.15-java-exception-1/src/org/java/blog/exception/PasswordException.java",
+    "Workspace/2023.11.15-java-exception-1/bin/org/java/blog/exception/UsernameException.class",
+    "Workspace/2023.11.15-java-exception-1/bin/org/java/blog/exception",
+    "Workspace/2023.11.15-java-exception-1/src/org/java/blog/exception/UsernameException.java",
+    "Workspace/2023.11.15-java-exception-1/src/org/java/blog/exception",
+    "Workspace/2023.11.15-java-exception-1/bin/org/java/ExceptionEx.class",
+    "Workspace/2023.11.15-java-exception-1/src/org/java/ExceptionEx.java",
     "Snacks/2023-11-14 - java-inheritance-shop.md",
     "Snacks/2023-11-13 - java-oop-shop.md",
+    "Personal/Test.md",
+    "Tips & Tricks/Markdown/Markdown + Obsidian.md",
     "Lives/2023-11-14 - java oop geometria.md",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape/Parallelepiped.class",
-    "Workspace/2023.11.14-java-oop-geometria/src/org/java/shape/Parallelepiped.java",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/Main.class",
-    "Workspace/2023.11.14-java-oop-geometria/src/org/java/Main.java",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape/Main.class",
-    "Workspace/2023.11.14-java-oop-geometria/src/org/java/shape/Main.java",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape/Rettangolo.class",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org/java/shape",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org/java",
-    "Workspace/2023.11.14-java-oop-geometria/bin/org",
     "Snacks/2023-11-10 - snacks 2.md",
     "Snacks/2023-11-09 - snacks.md",
     "Lives/2023-11-13 - java-oop-valutazioni.md",
@@ -211,8 +202,6 @@
     "Tips & Tricks/2023-09-28 - JDBC.md",
     "Test/Test.md",
     "Snacks/_Scaffolding - Snacks.md",
-    "Lives/_Scaffolding - Live.md",
-    "Databases/2023-09-27 - DB Aeroporto.md",
     "__assets/images/Untitled.png",
     "__assets/images/Pasted image 20231004125218.png",
     "__assets/images/Pasted image 20231003120629.png",
