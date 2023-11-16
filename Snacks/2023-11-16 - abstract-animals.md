@@ -17,6 +17,25 @@ Quali di questi metodi devono essere implementati nella classe astratta e quali 
 Una volta create le classi, nel programma istanziare alcuni animali e utilizzare i metodi implementati.
 
 ### Esercizio 2 : interfacce
+#### New Version
+Definire 2 interfacce chiamate `IVolante` e `INuovante`:
+##### `IVolante`
+Definisce firma del metodo:
+`void vola();`
+
+##### `INuotante`
+Definisce firma del metodo:
+`void nuota();`
+
+Ogni animale dovrà implementare una o più di queste due interfacce.
+
+Definire inoltre nella classe che contiene il `main` due metodi definiti come segue:
+- `public static void faiVolare(IVolante)`: prende in ingresso un oggetto volante e lo fa volare
+- `public static void faiNuotare(INuotante)`: prende in ingresso un oggetto nuotante e lo fa nuotare
+
+Richiamare opportunamente questi metodi all'interno del `main`.
+
+#### Old Version
 Alcuni degli animali che abbiamo creato volano, altri nuotano.
 
 Gli animali che volano hanno il seguente metodo:
