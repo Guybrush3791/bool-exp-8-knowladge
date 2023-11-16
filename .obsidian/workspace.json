@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-15 - java-exceptions-books.md",
-                "mode": "preview",
+                "file": "Snacks/2023-11-16 - abstract-animals.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-15 - java-exceptions-books.md",
+                "file": "Snacks/2023-11-16 - abstract-animals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-15 - java-exceptions-books.md",
+                "file": "Snacks/2023-11-16 - abstract-animals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-15 - java-exceptions-books.md"
+                "file": "Snacks/2023-11-16 - abstract-animals.md"
               }
             }
           },
@@ -161,19 +161,21 @@
   },
   "active": "199d21f0367bfa3e",
   "lastOpenFiles": [
-    "Lives/2023-11-15 - Exception & File.md",
+    "Lives/2023-11-16 - java abstraction.md",
+    "Snacks/2023-11-16 - abstract-animals.md",
+    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/inter/Colorized.class",
+    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/inter/Colorized.java",
+    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/TriangRect.class",
+    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/TriangRect.java",
+    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/Rectangle.class",
+    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/Rectangle.java",
+    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/Square.class",
+    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/Square.java",
+    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/inter/Square.class",
+    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/inter/Square.java",
     "Snacks/2023-11-15 - java-exceptions-books.md",
-    "Workspace/2023.11.15-java-exception-1/bin/org/java/ExceptionFileEx.class",
-    "Workspace/2023.11.15-java-exception-1/src/org/java/ExceptionFileEx.java",
-    "Workspace/2023.11.15-java-exception-1/bin/org/java/blog/exception/PasswordException.class",
-    "Workspace/2023.11.15-java-exception-1/src/org/java/blog/exception/PasswordException.java",
-    "Workspace/2023.11.15-java-exception-1/bin/org/java/blog/exception/UsernameException.class",
-    "Workspace/2023.11.15-java-exception-1/bin/org/java/blog/exception",
-    "Workspace/2023.11.15-java-exception-1/src/org/java/blog/exception/UsernameException.java",
-    "Workspace/2023.11.15-java-exception-1/src/org/java/blog/exception",
-    "Workspace/2023.11.15-java-exception-1/bin/org/java/ExceptionEx.class",
-    "Workspace/2023.11.15-java-exception-1/src/org/java/ExceptionEx.java",
     "Snacks/2023-11-14 - java-inheritance-shop.md",
+    "Lives/2023-11-15 - Exception & File.md",
     "Snacks/2023-11-13 - java-oop-shop.md",
     "Personal/Test.md",
     "Tips & Tricks/Markdown/Markdown + Obsidian.md",
@@ -200,8 +202,6 @@
     "Tips & Tricks/Install Git.md",
     "Tips & Tricks/Java Hello World.md",
     "Tips & Tricks/2023-09-28 - JDBC.md",
-    "Test/Test.md",
-    "Snacks/_Scaffolding - Snacks.md",
     "__assets/images/Untitled.png",
     "__assets/images/Pasted image 20231004125218.png",
     "__assets/images/Pasted image 20231003120629.png",
