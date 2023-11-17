@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-16 - abstract-animals.md",
+                "file": "Snacks/2023-11-17 - java-wish-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.51103591918945,
-    "collapsed": true
+    "width": 315.51103591918945
   },
   "right": {
     "id": "63ccbf656a1929a2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-16 - abstract-animals.md",
+                "file": "Snacks/2023-11-17 - java-wish-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-16 - abstract-animals.md",
+                "file": "Snacks/2023-11-17 - java-wish-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-16 - abstract-animals.md"
+                "file": "Snacks/2023-11-17 - java-wish-list.md"
               }
             }
           },
@@ -161,20 +160,22 @@
   },
   "active": "199d21f0367bfa3e",
   "lastOpenFiles": [
-    "Workspace/2023.11.16-java-interface-1/bin/Test.class",
-    "Workspace/2023.11.16-java-interface-1/src/Test.java",
-    "Lives/2023-11-16 - java abstraction.md",
+    "Personal/Slide Pausa.md",
+    "Snacks/2023-11-17 - java-wish-list.md",
+    "Personal/Start lesson command.md",
     "Snacks/2023-11-16 - abstract-animals.md",
-    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/inter/Colorized.class",
-    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/inter/Colorized.java",
-    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/TriangRect.class",
-    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/TriangRect.java",
-    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/Rectangle.class",
-    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/Rectangle.java",
-    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/Square.class",
-    "Workspace/2023.11.16-java-interface-1/src/org/java/pojo/Square.java",
-    "Workspace/2023.11.16-java-interface-1/bin/org/java/pojo/inter/Square.class",
+    "Workspace/2023.11.17-java-collection-1/bin/org/java/Main.class",
+    "Workspace/2023.11.17-java-collection-1/bin/org/java",
+    "Workspace/2023.11.17-java-collection-1/bin/org",
+    "Workspace/2023.11.17-java-collection-1/src/org/java/Main.java",
+    "Workspace/2023.11.17-java-collection-1/src/org/java",
+    "Workspace/2023.11.17-java-collection-1/src/org",
+    "Workspace/2023.11.17-java-collection-1/bin/Main.class",
+    "Workspace/2023.11.17-java-collection-1/src/Main.java",
+    "Workspace/2023.11.17-java-collection-1/src",
+    "Workspace/2023.11.17-java-collection-1/bin",
     "Snacks/2023-11-15 - java-exceptions-books.md",
+    "Lives/2023-11-16 - java abstraction.md",
     "Snacks/2023-11-14 - java-inheritance-shop.md",
     "Lives/2023-11-15 - Exception & File.md",
     "Snacks/2023-11-13 - java-oop-shop.md",
@@ -184,8 +185,6 @@
     "Snacks/2023-11-10 - snacks 2.md",
     "Snacks/2023-11-09 - snacks.md",
     "Lives/2023-11-13 - java-oop-valutazioni.md",
-    "Personal/Slide Pausa.md",
-    "Personal/Start lesson command.md",
     "Personal/Personal folder - Main Instruction.md",
     "Lives/2023-11-10 - snacks.md",
     "Snacks/Untitled.md",

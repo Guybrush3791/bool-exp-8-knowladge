@@ -41,6 +41,9 @@ public class Main {
 			sumArea += p.getArea();
 		}
 		
+		getPolygonArea(tr1);
+		getColorizedColor(tr1);
+		
 		System.out.println("sum perim: " + sumPerim);
 		System.out.println("sum area: " + sumArea);
 		System.out.println("\n--------------------------------------\n");
@@ -60,6 +63,10 @@ public class Main {
 	public static int getPolygonArea(Polygon p) {
 		
 		return p.getArea();
+	}
+	public static String getColorizedColor(Colorized c) {
+		
+		return c.getColor();
 	}
 	
 	public static Polygon getRandomShape() {
