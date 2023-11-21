@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac8b01503f2de90c",
+        "id": "50650b74a473919e",
         "type": "tabs",
         "children": [
           {
-            "id": "199d21f0367bfa3e",
+            "id": "a812774f5b69d9de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-17 - java-wish-list.md",
+                "file": "Snacks/2023-11-21 - java-gestore-eventi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-17 - java-wish-list.md",
+                "file": "Snacks/2023-11-21 - java-gestore-eventi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-17 - java-wish-list.md",
+                "file": "Snacks/2023-11-21 - java-gestore-eventi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-17 - java-wish-list.md"
+                "file": "Snacks/2023-11-21 - java-gestore-eventi.md"
               }
             }
           },
@@ -158,22 +158,26 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "199d21f0367bfa3e",
+  "active": "a812774f5b69d9de",
   "lastOpenFiles": [
-    "Personal/Slide Pausa.md",
+    "Lives/2023-11-20 - java Lavanderia.md",
+    "Snacks/2023-11-21 - java-gestore-eventi.md",
+    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/command/Command.java",
+    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/command",
     "Snacks/2023-11-17 - java-wish-list.md",
-    "Personal/Start lesson command.md",
     "Snacks/2023-11-16 - abstract-animals.md",
-    "Workspace/2023.11.17-java-collection-1/bin/org/java/Main.class",
-    "Workspace/2023.11.17-java-collection-1/bin/org/java",
-    "Workspace/2023.11.17-java-collection-1/bin/org",
-    "Workspace/2023.11.17-java-collection-1/src/org/java/Main.java",
-    "Workspace/2023.11.17-java-collection-1/src/org/java",
-    "Workspace/2023.11.17-java-collection-1/src/org",
-    "Workspace/2023.11.17-java-collection-1/bin/Main.class",
-    "Workspace/2023.11.17-java-collection-1/src/Main.java",
-    "Workspace/2023.11.17-java-collection-1/src",
-    "Workspace/2023.11.17-java-collection-1/bin",
+    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/Tank$TankTypology.class",
+    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/Tank.class",
+    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/Tank.java",
+    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/program/ProgramWDetergents.class",
+    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/program/ProgramWDetergents.java",
+    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/program/Program.class",
+    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/program",
+    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/program/Program.java",
+    "Personal/Slide Pausa.md",
+    "Lives/2023-11-10 - snacks.md",
+    "Pasted image 20231120101410.png",
+    "Personal/Start lesson command.md",
     "Snacks/2023-11-15 - java-exceptions-books.md",
     "Lives/2023-11-16 - java abstraction.md",
     "Snacks/2023-11-14 - java-inheritance-shop.md",
@@ -186,7 +190,6 @@
     "Snacks/2023-11-09 - snacks.md",
     "Lives/2023-11-13 - java-oop-valutazioni.md",
     "Personal/Personal folder - Main Instruction.md",
-    "Lives/2023-11-10 - snacks.md",
     "Snacks/Untitled.md",
     "Tips & Tricks/Update Vault.md",
     "Lives/2023-11-09 - mini snacks.md",
@@ -199,12 +202,9 @@
     "__assets/images/giovanni.png",
     "__assets/images/boolean.png",
     "__assets/images/experis.png",
-    "Tips & Tricks/Install Git.md",
-    "Tips & Tricks/Java Hello World.md",
     "__assets/images/Untitled.png",
     "__assets/images/Pasted image 20231004125218.png",
     "__assets/images/Pasted image 20231003120629.png",
-    "__assets/images/Pasted image 20231004122752.png",
-    "Workspace/2023-10-04-spring-la-mia-pizzeria-crud/front-end/src/assets/logo.svg"
+    "__assets/images/Pasted image 20231004122752.png"
   ]
 }
