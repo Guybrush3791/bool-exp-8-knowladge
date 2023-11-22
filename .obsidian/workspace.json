@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-21 - java-gestore-eventi.md",
+                "file": "2023-11-22 - db-videogames.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-21 - java-gestore-eventi.md",
+                "file": "2023-11-22 - db-videogames.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-21 - java-gestore-eventi.md",
+                "file": "2023-11-22 - db-videogames.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-21 - java-gestore-eventi.md"
+                "file": "2023-11-22 - db-videogames.md"
               }
             }
           },
@@ -160,20 +160,24 @@
   },
   "active": "a812774f5b69d9de",
   "lastOpenFiles": [
-    "Lives/2023-11-20 - java Lavanderia.md",
+    "Snacks/2023-11-22 - db-airport.md",
+    "2023-11-22 - db-videogames.md",
+    "Pasted image 20231122121949.png",
+    "Pasted image 20231122112657.png",
     "Snacks/2023-11-21 - java-gestore-eventi.md",
-    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/command/Command.java",
-    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/command",
+    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/ProgrammaEventi.class",
+    "Workspace/2023.11.22-java-gestore-eventi/src/org/java/ProgrammaEventi.java",
+    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/pojo/Concerto.class",
+    "Workspace/2023.11.22-java-gestore-eventi/src/org/java/pojo/Concerto.java",
+    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/helper/Helper.class",
+    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/helper",
+    "Workspace/2023.11.22-java-gestore-eventi/src/org/java/helper/Helper.java",
+    "Workspace/2023.11.22-java-gestore-eventi/src/org/java/helper",
+    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/pojo/Evento.class",
+    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/pojo",
     "Snacks/2023-11-17 - java-wish-list.md",
+    "Lives/2023-11-20 - java Lavanderia.md",
     "Snacks/2023-11-16 - abstract-animals.md",
-    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/Tank$TankTypology.class",
-    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/Tank.class",
-    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/Tank.java",
-    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/program/ProgramWDetergents.class",
-    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/program/ProgramWDetergents.java",
-    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/program/Program.class",
-    "Workspace/2023.11.20-java-lavanderia/bin/org/java/landeria/pojo/program",
-    "Workspace/2023.11.20-java-lavanderia/src/org/java/landeria/pojo/program/Program.java",
     "Personal/Slide Pausa.md",
     "Lives/2023-11-10 - snacks.md",
     "Pasted image 20231120101410.png",
@@ -195,16 +199,12 @@
     "Lives/2023-11-09 - mini snacks.md",
     "Snacks/2023-11-08 - Java Hello World.md",
     "Full Stack Web & Java - Classe 8.md",
-    "Tips & Tricks/Markdown/Slides/Slides demo.md",
     "__assets/images/obsidian update.png",
-    "Personal/Tools/Lavagna virtuale.md",
     "__assets/images/pausa.png",
     "__assets/images/giovanni.png",
     "__assets/images/boolean.png",
     "__assets/images/experis.png",
     "__assets/images/Untitled.png",
-    "__assets/images/Pasted image 20231004125218.png",
-    "__assets/images/Pasted image 20231003120629.png",
-    "__assets/images/Pasted image 20231004122752.png"
+    "__assets/images/Pasted image 20231004125218.png"
   ]
 }
