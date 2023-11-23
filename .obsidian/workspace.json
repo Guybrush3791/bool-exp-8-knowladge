@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-23 - Db Videogame Ex.md",
+                "file": "Databases/2023-11-23 - DB Videogame.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-23 - Db Videogame Ex.md",
+                "file": "Databases/2023-11-23 - DB Videogame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-23 - Db Videogame Ex.md",
+                "file": "Databases/2023-11-23 - DB Videogame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-23 - Db Videogame Ex.md"
+                "file": "Databases/2023-11-23 - DB Videogame.md"
               }
             }
           },
@@ -160,13 +160,14 @@
   },
   "active": "a812774f5b69d9de",
   "lastOpenFiles": [
+    "__assets/images/Pasted image 20231123142423.png",
+    "Tips & Tricks/2023-11-23 - Import Big Dump (DB).md",
+    "Snacks/2023-11-23 - Db Videogame Ex.md",
     "Databases/2023-11-23 - DB Videogame.md",
     "Databases/2023-11-23 - DB Airport.md",
     "__assets/dump/mysql-db_videogames.sql",
-    "Snacks/2023-11-23 - Db Videogame Ex.md",
     "__assets/images/Pasted image 20231123104325.png",
     "Lives/2023-11-23.md",
-    "Tips & Tricks/2023-11-23 - Import Big Dump (DB).md",
     "__assets/images/DB Aiport.png",
     "mysql-db_aeroporto.sql",
     "Snacks/2023-11-22 - db-videogames.md",
