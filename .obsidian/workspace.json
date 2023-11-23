@@ -11,9 +11,11 @@
             "id": "a812774f5b69d9de",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "__assets/images/Pasted image 20231120101410.png"
+                "file": "Snacks/2023-11-23 - Db Videogame Ex.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__assets/images/Pasted image 20231120101410.png",
+                "file": "Snacks/2023-11-23 - Db Videogame Ex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "__assets/images/Pasted image 20231120101410.png",
+                "file": "Snacks/2023-11-23 - Db Videogame Ex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "__assets/images/Pasted image 20231120101410.png"
+                "file": "Snacks/2023-11-23 - Db Videogame Ex.md"
               }
             }
           },
@@ -156,26 +158,34 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a65468d107a2dfa8",
+  "active": "a812774f5b69d9de",
   "lastOpenFiles": [
+    "Databases/2023-11-23 - DB Videogame.md",
+    "Databases/2023-11-23 - DB Airport.md",
+    "__assets/dump/mysql-db_videogames.sql",
+    "Snacks/2023-11-23 - Db Videogame Ex.md",
+    "__assets/images/Pasted image 20231123104325.png",
+    "Lives/2023-11-23.md",
+    "Tips & Tricks/2023-11-23 - Import Big Dump (DB).md",
+    "__assets/images/DB Aiport.png",
+    "mysql-db_aeroporto.sql",
+    "Snacks/2023-11-22 - db-videogames.md",
+    "__assets/dump/mysql-db_aeroporto.sql",
+    "__assets/dump",
+    "__assets/images/Pasted image 20231123095512.png",
+    "Snacks/2023-11-21 - java-gestore-eventi.md",
+    "Lives/2023-11-22 - db-airport.md",
+    "Lives/2023-11-20 - java Lavanderia.md",
+    "__assets/images/Pasted image 20231120101410.png",
     "__assets/images/Pasted image 20231122121949.png",
     "__assets/images/Pasted image 20231122112657.png",
-    "__assets/images/Pasted image 20231120101410.png",
-    "Snacks/2023-11-22 - db-videogames.md",
-    "Snacks/2023-11-22 - db-airport.md",
-    "Snacks/2023-11-21 - java-gestore-eventi.md",
     "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/ProgrammaEventi.class",
     "Workspace/2023.11.22-java-gestore-eventi/src/org/java/ProgrammaEventi.java",
     "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/pojo/Concerto.class",
     "Workspace/2023.11.22-java-gestore-eventi/src/org/java/pojo/Concerto.java",
     "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/helper/Helper.class",
     "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/helper",
-    "Workspace/2023.11.22-java-gestore-eventi/src/org/java/helper/Helper.java",
-    "Workspace/2023.11.22-java-gestore-eventi/src/org/java/helper",
-    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/pojo/Evento.class",
-    "Workspace/2023.11.22-java-gestore-eventi/bin/org/java/pojo",
     "Snacks/2023-11-17 - java-wish-list.md",
-    "Lives/2023-11-20 - java Lavanderia.md",
     "Snacks/2023-11-16 - abstract-animals.md",
     "Personal/Slide Pausa.md",
     "Lives/2023-11-10 - snacks.md",
@@ -191,17 +201,9 @@
     "Snacks/2023-11-10 - snacks 2.md",
     "Snacks/2023-11-09 - snacks.md",
     "Lives/2023-11-13 - java-oop-valutazioni.md",
-    "Personal/Personal folder - Main Instruction.md",
-    "Snacks/Untitled.md",
-    "Tips & Tricks/Update Vault.md",
-    "Lives/2023-11-09 - mini snacks.md",
-    "Snacks/2023-11-08 - Java Hello World.md",
     "__assets/images/obsidian update.png",
     "__assets/images/pausa.png",
     "__assets/images/giovanni.png",
-    "__assets/images/boolean.png",
-    "__assets/images/experis.png",
-    "__assets/images/Untitled.png",
-    "__assets/images/Pasted image 20231004125218.png"
+    "__assets/images/boolean.png"
   ]
 }
