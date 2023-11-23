@@ -1,3 +1,7 @@
+## Repo
+`db-videogames-query`
+
+## Todo
 SELECT
 
 1- Selezionare tutte le software house americane (3)
