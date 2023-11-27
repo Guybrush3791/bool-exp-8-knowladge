@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lives/2023-11-23 - db aeroporto ex.md",
+                "file": "2023-11-27 - java-calculator-tester.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lives/2023-11-23 - db aeroporto ex.md",
+                "file": "2023-11-27 - java-calculator-tester.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lives/2023-11-23 - db aeroporto ex.md",
+                "file": "2023-11-27 - java-calculator-tester.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lives/2023-11-23 - db aeroporto ex.md"
+                "file": "2023-11-27 - java-calculator-tester.md"
               }
             }
           },
@@ -160,24 +160,28 @@
   },
   "active": "a812774f5b69d9de",
   "lastOpenFiles": [
+    "Snacks/2023-11-09 - snacks.md",
+    "2023-11-27 - java-calculator-tester.md",
+    "Snacks/2023-11-10 - snacks 2.md",
+    "Lives/2023-11-27 - person tester.md",
+    "Workspace/2023.11.27-junit-1/src/test/java/org/java/PersonTest.java",
+    "Workspace/2023.11.27-junit-1/src/test/java/org/java/PersonManagerTest.java",
+    "Workspace/2023.11.27-junit-1/src/test/java/org/java/PersonManagerListNameTest.java",
+    "Workspace/2023.11.27-junit-1/target/surefire/surefirebooter-20231127110605184_3.jar",
+    "Workspace/2023.11.27-junit-1/target/surefire/surefire_0-20231127110605184_2tmp",
+    "Workspace/2023.11.27-junit-1/target/surefire/surefire-20231127110605184_1tmp",
+    "Workspace/2023.11.27-junit-1/target/surefire",
+    "Workspace/2023.11.27-junit-1/target/surefire/surefirebooter-20231127110549627_3.jar",
+    "Workspace/2023.11.27-junit-1/target/surefire/surefire_0-20231127110549627_2tmp",
+    "Workspace/2023.11.27-junit-1/target/surefire/surefire-20231127110549627_1tmp",
     "Snacks/2023-11-24 - db-nations.md",
-    "__assets/images/Pasted image 20231124124802.png",
-    "__assets/images/Pasted image 20231124125357.png",
     "Databases/2023-11-24 - db-nations.md",
-    "__assets/dump/dump_nations.sql",
-    "Snacks/2023-11-23 - db-videogames-query.md",
-    "Workspace/2023.11.24-java-maven-jdbc-1/target/classes/org/java/db/Main.class",
-    "Workspace/2023.11.24-java-maven-jdbc-1/target/classes/org/java/db",
-    "Workspace/2023.11.24-java-maven-jdbc-1/target/classes/org/java",
-    "Workspace/2023.11.24-java-maven-jdbc-1/target/classes/org",
-    "Workspace/2023.11.24-java-maven-jdbc-1/src/main/java/org/java/db/Main.java",
-    "Workspace/2023.11.24-java-maven-jdbc-1/src/main/java/org/java/db",
-    "Workspace/2023.11.24-java-maven-jdbc-1/src/main/java/org/java",
-    "Workspace/2023.11.24-java-maven-jdbc-1/src/main/java/org",
-    "Workspace/2023.11.24-java-maven-jdbc-1/target/classes/META-INF/maven/org.java.db/2023.11.24-java-maven-jdbc-1/pom.xml",
+    "Snacks/2023-11-21 - java-gestore-eventi.md",
     "Snacks/2023-11-22 - db-videogames.md",
     "Lives/2023-11-23 - db aeroporto ex.md",
-    "Snacks/2023-11-21 - java-gestore-eventi.md",
+    "__assets/images/Pasted image 20231124124802.png",
+    "__assets/images/Pasted image 20231124125357.png",
+    "Snacks/2023-11-23 - db-videogames-query.md",
     "Databases/2023-11-23 - DB Videogame.md",
     "__assets/images/Pasted image 20231123142423.png",
     "Tips & Tricks/2023-11-23 - Import Big Dump (DB).md",
@@ -201,9 +205,6 @@
     "Lives/2023-11-15 - Exception & File.md",
     "Snacks/2023-11-13 - java-oop-shop.md",
     "Personal/Test.md",
-    "Tips & Tricks/Markdown/Markdown + Obsidian.md",
-    "Lives/2023-11-14 - java oop geometria.md",
-    "Snacks/2023-11-10 - snacks 2.md",
     "__assets/images/obsidian update.png"
   ]
 }

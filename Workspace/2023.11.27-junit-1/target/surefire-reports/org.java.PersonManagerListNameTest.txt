@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.java.PersonManagerListNameTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in org.java.PersonManagerListNameTest
+org.java.PersonManagerListNameTest.getPeopleByNameFraPersonManagerTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException
+	at org.java.PersonManager.getPeopleByName(PersonManager.java:32)
+	at org.java.PersonManagerListNameTest.getPeopleByNameFraPersonManagerTest(PersonManagerListNameTest.java:44)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+
+org.java.PersonManagerListNameTest.getPeopleByNameMarcoPersonManagerTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException
+	at org.java.PersonManager.getPeopleByName(PersonManager.java:32)
+	at org.java.PersonManagerListNameTest.getPeopleByNameMarcoPersonManagerTest(PersonManagerListNameTest.java:32)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+
+org.java.PersonManagerListNameTest.getPeopleByNameGianniPersonManagerTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException
+	at org.java.PersonManager.getPeopleByName(PersonManager.java:32)
+	at org.java.PersonManagerListNameTest.getPeopleByNameGianniPersonManagerTest(PersonManagerListNameTest.java:56)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+
