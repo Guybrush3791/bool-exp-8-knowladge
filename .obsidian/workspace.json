@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-27 - java-calculator-tester.md",
-                "mode": "source",
+                "file": "Snacks/2023-11-28 - best-of-the-year.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-27 - java-calculator-tester.md",
+                "file": "Snacks/2023-11-28 - best-of-the-year.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-27 - java-calculator-tester.md",
+                "file": "Snacks/2023-11-28 - best-of-the-year.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-27 - java-calculator-tester.md"
+                "file": "Snacks/2023-11-28 - best-of-the-year.md"
               }
             }
           },
@@ -160,20 +160,25 @@
   },
   "active": "a812774f5b69d9de",
   "lastOpenFiles": [
-    "Snacks/2023-11-09 - snacks.md",
+    "Personal/Slide Pausa.md",
+    "Snacks/2023-11-28 - best-of-the-year.md",
+    "Workspace/2023.11.28-spring-boot-1/target/classes/templates/test5.html",
+    "Workspace/2023.11.28-spring-boot-1/src/main/resources/templates/test5.html",
+    "Workspace/2023.11.28-spring-boot-1/target/classes/templates/test4.html",
+    "Workspace/2023.11.28-spring-boot-1/src/main/resources/templates/test4.html",
+    "Workspace/2023.11.28-spring-boot-1/target/classes/templates/test3.html",
+    "Workspace/2023.11.28-spring-boot-1/src/main/resources/templates/test3.html",
+    "Workspace/2023.11.28-spring-boot-1/target/classes/templates/test2.html",
+    "Workspace/2023.11.28-spring-boot-1/target/classes/templates",
+    "Workspace/2023.11.28-spring-boot-1/src/main/resources/templates/test2.html",
+    "Workspace/2023.11.28-spring-boot-1/target/classes/org/java/spring/controller/MainController.class",
+    "Workspace/2023.11.28-spring-boot-1/HELP.md",
     "Snacks/2023-11-27 - java-calculator-tester.md",
+    "Snacks/2023-11-09 - snacks.md",
+    "Snacks/2023-11-17 - java-wish-list.md",
+    "Snacks/2023-11-16 - abstract-animals.md",
     "Snacks/2023-11-10 - snacks 2.md",
     "Lives/2023-11-27 - person tester.md",
-    "Workspace/2023.11.27-junit-1/src/test/java/org/java/PersonTest.java",
-    "Workspace/2023.11.27-junit-1/src/test/java/org/java/PersonManagerTest.java",
-    "Workspace/2023.11.27-junit-1/src/test/java/org/java/PersonManagerListNameTest.java",
-    "Workspace/2023.11.27-junit-1/target/surefire/surefirebooter-20231127110605184_3.jar",
-    "Workspace/2023.11.27-junit-1/target/surefire/surefire_0-20231127110605184_2tmp",
-    "Workspace/2023.11.27-junit-1/target/surefire/surefire-20231127110605184_1tmp",
-    "Workspace/2023.11.27-junit-1/target/surefire",
-    "Workspace/2023.11.27-junit-1/target/surefire/surefirebooter-20231127110549627_3.jar",
-    "Workspace/2023.11.27-junit-1/target/surefire/surefire_0-20231127110549627_2tmp",
-    "Workspace/2023.11.27-junit-1/target/surefire/surefire-20231127110549627_1tmp",
     "Snacks/2023-11-24 - db-nations.md",
     "Databases/2023-11-24 - db-nations.md",
     "Snacks/2023-11-21 - java-gestore-eventi.md",
@@ -194,17 +199,12 @@
     "__assets/images/Pasted image 20231120101410.png",
     "__assets/images/Pasted image 20231122121949.png",
     "__assets/images/Pasted image 20231122112657.png",
-    "Snacks/2023-11-17 - java-wish-list.md",
-    "Snacks/2023-11-16 - abstract-animals.md",
-    "Personal/Slide Pausa.md",
     "Lives/2023-11-10 - snacks.md",
     "Personal/Start lesson command.md",
     "Snacks/2023-11-15 - java-exceptions-books.md",
     "Lives/2023-11-16 - java abstraction.md",
     "Snacks/2023-11-14 - java-inheritance-shop.md",
     "Lives/2023-11-15 - Exception & File.md",
-    "Snacks/2023-11-13 - java-oop-shop.md",
-    "Personal/Test.md",
     "__assets/images/obsidian update.png"
   ]
 }

@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.java.PersonTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! -- in org.java.PersonTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! -- in org.java.PersonTest
 org.java.PersonTest.getSetNameTest -- Time elapsed: 0.017 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Nome non corrispondente ==> expected: <Franco> but was: <null>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)

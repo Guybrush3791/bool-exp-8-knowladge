@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.java.PersonManagerListNameTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in org.java.PersonManagerListNameTest
-org.java.PersonManagerListNameTest.getPeopleByNameFraPersonManagerTest -- Time elapsed: 0.002 s <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in org.java.PersonManagerListNameTest
+org.java.PersonManagerListNameTest.getPeopleByNameFraPersonManagerTest -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.NullPointerException
 	at org.java.PersonManager.getPeopleByName(PersonManager.java:32)
 	at org.java.PersonManagerListNameTest.getPeopleByNameFraPersonManagerTest(PersonManagerListNameTest.java:44)
@@ -18,7 +18,7 @@ java.lang.NullPointerException
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 
-org.java.PersonManagerListNameTest.getPeopleByNameGianniPersonManagerTest -- Time elapsed: 0.001 s <<< ERROR!
+org.java.PersonManagerListNameTest.getPeopleByNameGianniPersonManagerTest -- Time elapsed: 0 s <<< ERROR!
 java.lang.NullPointerException
 	at org.java.PersonManager.getPeopleByName(PersonManager.java:32)
 	at org.java.PersonManagerListNameTest.getPeopleByNameGianniPersonManagerTest(PersonManagerListNameTest.java:56)
