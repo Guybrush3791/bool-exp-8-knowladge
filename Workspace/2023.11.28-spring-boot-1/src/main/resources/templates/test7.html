@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}"/>
+</head> 
+<body>
+	<h1>Hello, World!!</h1>
+	<div
+		th:insert="frags :: button('www.google.com', 'Google')"
+	></div>
+</body>
+</html>

@@ -1,5 +1,9 @@
 package org.java.spring.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.java.spring.pojo.MyObj;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -52,5 +56,28 @@ public class MainController {
 		model.addAttribute("nomeutente", nomeutente);
 		
 		return "test5";
+	}
+	
+	@GetMapping("/test6")
+	public String test6(Model model) {
+		
+		model.addAttribute("myObj", new MyObj(10, "Guybrush")); 
+		
+		List<MyObj> myObjs = new ArrayList<>();
+		myObjs.add(new MyObj(11, "Marco"));
+		myObjs.add(new MyObj(12, "Francesca"));
+		myObjs.add(new MyObj(13, "Tulio"));
+		myObjs.add(new MyObj(14, "Chiara"));
+		myObjs.add(new MyObj(15, "Sandra"));
+		
+		model.addAttribute("myObjs", myObjs);
+		
+		return "test6";
+	}
+	
+	@GetMapping("/test7")
+	public String test7() {
+		
+		return "test7";
 	}
 }

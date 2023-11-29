@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	<h1>Hello, World from [[${myObj.name}]]</h1>
+	
+	<div th:object="${myObj}">
+		<h1>Hello, World from [[*{name}]]</h1>
+	</div>
+	
+	<h1>
+		Hello, World from
+		<a class="btn btn-primary" th:href="@{/myobj/{id}/edit (id=${myObj.id})}">[[${myObj.name}]]</a> 
+	</h1>
+	
+	<h1 th:text="|Hello, World from ${myObj.name}|"></h1>
+	
+	<h1 th:if="${myObj.id > 5}">Id maggiore di 5</h1>
+	
+	<img th:src="@{/img/myImg.png}" width="300px" />
+	
+	<ul>
+		<li
+			th:each="mo : ${myObjs}"
+			th:object="${mo}"
+		>
+			[[*{id}]] - [[*{name}]]
+		</li>
+	</ul>
+</body>
+</html>
