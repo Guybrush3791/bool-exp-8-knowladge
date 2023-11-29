@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Snacks/2023-11-28 - best-of-the-year.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -158,8 +158,9 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a812774f5b69d9de",
+  "active": "a65468d107a2dfa8",
   "lastOpenFiles": [
+    "__assets/images/Pasted image 20231129114207.png",
     "Snacks/2023-11-29 - best-of-the-year.md",
     "Snacks/2023-11-28 - best-of-the-year.md",
     "Workspace/2023.11.28-spring-boot-1/target/classes/templates/frags.html",
@@ -204,7 +205,6 @@
     "Lives/2023-11-20 - java Lavanderia.md",
     "Lives/2023-11-10 - snacks.md",
     "Personal/Start lesson command.md",
-    "Snacks/2023-11-15 - java-exceptions-books.md",
-    "Lives/2023-11-16 - java abstraction.md"
+    "Snacks/2023-11-15 - java-exceptions-books.md"
   ]
 }

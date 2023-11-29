@@ -49,3 +49,6 @@ Nella pagina `home` (quella che risponde alla root dell’applicazione) aggiunge
 Nelle pagine con le liste aggiungere un link che riporta alla *home page*.
 
 Testare navigando l’applicazione.
+
+**Layout**
+![[Pasted image 20231129114207.png]]
