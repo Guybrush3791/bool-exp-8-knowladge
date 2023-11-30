@@ -3,8 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}"/>
 </head>
 <body>
-	<h1>Songs: [[${movies}]]</h1>
+	<h1>Songs:</h1>
+	<a th:replace="frags :: homeButton" />
+	<ul>
+		<li
+			th:each="song : ${songs}"
+			th:object="${song}"
+		>
+			<a th:replace="frags :: btn(@{/songs/{id}(id=${song.id})}, ${song.title})" />
+		</li>
+	</ul>
 </body>
 </html>

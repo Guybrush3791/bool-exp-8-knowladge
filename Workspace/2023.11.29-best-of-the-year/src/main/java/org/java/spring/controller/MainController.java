@@ -18,6 +18,8 @@ public class MainController {
 		
 		model.addAttribute("name", "Guybrush");
 		
+		System.out.println("Hello, World");
+		
 		return "index";
 	}
 	
@@ -25,12 +27,12 @@ public class MainController {
 	public String getMovies(Model model) {
 		
 		List<Movie> movies = getBestMovies();
-		String strMovies = "";
+//		String strMovies = "";
+//		
+//		for (Movie m : movies)
+//			strMovies += m.getTitle() + ", ";
 		
-		for (Movie m : movies)
-			strMovies += m.getTitle() + ", ";
-		
-		model.addAttribute("movies", strMovies);
+		model.addAttribute("movies", movies);
 		
 		return "movies";
 	}
@@ -38,12 +40,12 @@ public class MainController {
 	public String getSongs(Model model) {
 		
 		List<Song> songs = getBestSongs();
-		String strSongs = "";
+//		String strSongs = "";
+//		
+//		for (Song s : songs)
+//			strSongs += s.getTitle() + ", ";
 		
-		for (Song s : songs)
-			strSongs += s.getTitle() + ", ";
-		
-		model.addAttribute("movies", strSongs);
+		model.addAttribute("songs", songs);
 		
 		return "songs";
 	}
@@ -62,7 +64,8 @@ public class MainController {
 				break;
 			}
 		
-		model.addAttribute("title", (movie == null) ? "No movie found" : movie.getTitle());
+//		model.addAttribute("title", (movie == null) ? "No movie found" : movie.getTitle());
+		model.addAttribute("movie", movie);
 		
 		return "movie";
 	}
@@ -80,9 +83,10 @@ public class MainController {
 				break;
 			}
 		
-		model.addAttribute("title", (song == null) ? "No song found" : song.getTitle());
+//		model.addAttribute("title", (song == null) ? "No song found" : song.getTitle());
+		model.addAttribute("song", song);
 		
-		return "movie";
+		return "song";
 	}
 	
 	private List<Movie> getBestMovies() {

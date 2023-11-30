@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+
 <title>Insert title here</title>
+<div
+	th:replace="frags :: header"
+/>
+	
+</div>
 </head>
 <body>
-	<h1>Movies: [[${movies}]]</h1>
+	<h1>Movies:</h1>
+	<a th:replace="frags :: homeButton" />
+	<ul>
+		<li
+			th:each="movie : ${movies}"
+			th:object="${movie}"
+		>
+			<a th:replace="frags :: btn(@{/movies/{id}(id=${movie.id})}, ${movie.title})" />
+		</li>
+	</ul>
 </body>
 </html>

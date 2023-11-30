@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-11-28 - best-of-the-year.md",
-                "mode": "source",
+                "file": "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-11-28 - best-of-the-year.md",
+                "file": "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-11-28 - best-of-the-year.md",
+                "file": "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-11-28 - best-of-the-year.md"
+                "file": "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md"
               }
             }
           },
@@ -158,22 +158,24 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a65468d107a2dfa8",
+  "active": "a812774f5b69d9de",
   "lastOpenFiles": [
-    "__assets/images/Pasted image 20231129114207.png",
-    "Snacks/2023-11-29 - best-of-the-year.md",
     "Snacks/2023-11-28 - best-of-the-year.md",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/templates/frags.html",
-    "Workspace/2023.11.28-spring-boot-1/src/main/resources/templates/frags.html",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF/maven/org.java/2023.11.28-spring-boot-1/pom.xml",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF/maven/org.java/2023.11.28-spring-boot-1/pom.properties",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF/maven/org.java/2023.11.28-spring-boot-1",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF/maven/org.java",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF/maven",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF/MANIFEST.MF",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/META-INF",
-    "Workspace/2023.11.28-spring-boot-1/target/classes/templates/test7.html",
+    "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
+    "Workspace/2023.11.30-crud-1/target/classes/templates/book.html",
+    "Workspace/2023.11.30-crud-1/src/main/resources/templates/book.html",
+    "Workspace/2023.11.30-crud-1/target/classes/templates/books.html",
+    "Workspace/2023.11.30-crud-1/target/classes/templates",
+    "Workspace/2023.11.30-crud-1/src/main/resources/templates/books.html",
+    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/controller/MainController.java",
+    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/controller",
+    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/MyRunner.java",
+    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/db/serv/BookService.java",
+    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/db/serv",
+    "Workspace/2023.11.30-crud-1/HELP.md",
     "Workspace/2023.11.28-spring-boot-1/target/classes/public/img/myImg.png",
+    "Snacks/2023-11-29 - best-of-the-year.md",
+    "__assets/images/Pasted image 20231129114207.png",
     "Workspace/2023.11.28-spring-boot-1/src/main/resources/public/img/myImg.png",
     "Workspace/2023.11.29-best-of-the-year/src/main/resources/public/img/myImg.png",
     "Workspace/2023.11.29-best-of-the-year/src/main/resources/public/img/KWolf - Programmer do it better - circle - small write - final.png",
@@ -200,11 +202,9 @@
     "Databases/2023-11-23 - DB Airport.md",
     "__assets/images/Pasted image 20231123104325.png",
     "__assets/images/DB Aiport.png",
-    "__assets/images/Pasted image 20231123095512.png",
     "Lives/2023-11-22 - db-airport.md",
     "Lives/2023-11-20 - java Lavanderia.md",
     "Lives/2023-11-10 - snacks.md",
-    "Personal/Start lesson command.md",
-    "Snacks/2023-11-15 - java-exceptions-books.md"
+    "Personal/Start lesson command.md"
   ]
 }
