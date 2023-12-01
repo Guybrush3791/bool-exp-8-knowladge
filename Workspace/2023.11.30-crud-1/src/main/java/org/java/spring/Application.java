@@ -163,7 +163,7 @@ public class Application implements CommandLineRunner {
 	public void extraGenerics() {
 		
 		MyMath myMath = new MyMath();
-		int value = myMath.sum(10f, 10);
+		int value = myMath.sum(10, 20);
 		
 		System.out.println(value);
 		
@@ -191,7 +191,14 @@ public class Application implements CommandLineRunner {
 //			return x + y;
 //		}
 		
-		public <E extends Number> int sum(E x, E y) {
+		public <E extends Number> Number sum(E x, E y) {
+			
+			if (x instanceof Double || y instanceof Double) 
+		        return x.doubleValue() + y.doubleValue();
+		    if (x instanceof Float || y instanceof Float)
+		        return x.floatValue() + y.floatValue();
+		    if (x instanceof Long || y instanceof Long)
+		        return x.longValue() + y.longValue();
 			
 			return x.intValue() + y.intValue();
 		}

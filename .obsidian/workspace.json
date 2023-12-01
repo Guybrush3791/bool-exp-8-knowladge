@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50650b74a473919e",
+        "id": "f12515ba57ad00bb",
         "type": "tabs",
         "children": [
           {
-            "id": "a812774f5b69d9de",
+            "id": "038357e6915635e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,8 +159,10 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a812774f5b69d9de",
+  "active": "038357e6915635e2",
   "lastOpenFiles": [
+    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/Application.java",
+    "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
     "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/Application$MyMath.class",
     "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/Application$MyClass.class",
     "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/Application$MyFuncInteface.class",
@@ -171,11 +173,9 @@
     "Workspace/2023.11.30-crud-1/target/classes/META-INF/maven",
     "Workspace/2023.11.30-crud-1/target/classes/META-INF/MANIFEST.MF",
     "Workspace/2023.11.30-crud-1/target/classes/META-INF",
-    "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/target/classes/templates/pizzas.html",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/HELP.md",
     "Snacks/2023-11-29 - best-of-the-year.md",
     "Snacks/2023-11-28 - best-of-the-year.md",
-    "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
     "Workspace/2023.11.28-spring-boot-1/target/classes/public/img/myImg.png",
     "Workspace/2023.11.30-crud-1/HELP.md",
     "__assets/images/Pasted image 20231129114207.png",
