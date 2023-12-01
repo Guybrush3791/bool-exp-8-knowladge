@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.51103591918945
+    "width": 315.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "63ccbf656a1929a2",
@@ -160,21 +161,23 @@
   },
   "active": "a812774f5b69d9de",
   "lastOpenFiles": [
+    "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/Application$MyMath.class",
+    "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/Application$MyClass.class",
+    "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/Application$MyFuncInteface.class",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF/maven/org.java/2023.11.30-crud-1/pom.xml",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF/maven/org.java/2023.11.30-crud-1/pom.properties",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF/maven/org.java/2023.11.30-crud-1",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF/maven/org.java",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF/maven",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF/MANIFEST.MF",
+    "Workspace/2023.11.30-crud-1/target/classes/META-INF",
+    "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/target/classes/templates/pizzas.html",
+    "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/HELP.md",
+    "Snacks/2023-11-29 - best-of-the-year.md",
     "Snacks/2023-11-28 - best-of-the-year.md",
     "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
-    "Workspace/2023.11.30-crud-1/target/classes/templates/book.html",
-    "Workspace/2023.11.30-crud-1/src/main/resources/templates/book.html",
-    "Workspace/2023.11.30-crud-1/target/classes/templates/books.html",
-    "Workspace/2023.11.30-crud-1/target/classes/templates",
-    "Workspace/2023.11.30-crud-1/src/main/resources/templates/books.html",
-    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/controller/MainController.java",
-    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/controller",
-    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/MyRunner.java",
-    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/db/serv/BookService.java",
-    "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/db/serv",
-    "Workspace/2023.11.30-crud-1/HELP.md",
     "Workspace/2023.11.28-spring-boot-1/target/classes/public/img/myImg.png",
-    "Snacks/2023-11-29 - best-of-the-year.md",
+    "Workspace/2023.11.30-crud-1/HELP.md",
     "__assets/images/Pasted image 20231129114207.png",
     "Workspace/2023.11.28-spring-boot-1/src/main/resources/public/img/myImg.png",
     "Workspace/2023.11.29-best-of-the-year/src/main/resources/public/img/myImg.png",
@@ -203,8 +206,6 @@
     "__assets/images/Pasted image 20231123104325.png",
     "__assets/images/DB Aiport.png",
     "Lives/2023-11-22 - db-airport.md",
-    "Lives/2023-11-20 - java Lavanderia.md",
-    "Lives/2023-11-10 - snacks.md",
-    "Personal/Start lesson command.md"
+    "Lives/2023-11-20 - java Lavanderia.md"
   ]
 }

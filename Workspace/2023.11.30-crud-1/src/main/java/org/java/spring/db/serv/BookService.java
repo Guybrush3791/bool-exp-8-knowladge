@@ -21,6 +21,10 @@ public class BookService {
 		
 		return bookRepository.findById(id).get();
 	}
+	public List<Book> findByTitleOrAuthor(String query) {
+		
+		return bookRepository.findByTitleContainingOrAuthorContainingIgnoreCase(query, query);
+	}
 	public void save(Book book) {
 		
 		bookRepository.save(book);

@@ -6,6 +6,11 @@
 </head>
 <body>
 	<h1>Books:</h1>
+	<form>
+		<label for="search">SEARCH</label>
+		<input id="search" type="text" name="q" th:value="${q}">
+		<input type="submit" value="SEARCH" > 		
+	</form>
 	<ul>
 		<li
 			th:each="book : ${books}"

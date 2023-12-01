@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div th:if="${pizzas.size() > 0}">
+		<h1>Pizze:</h1>
+		<ul>
+			<li
+				th:each="pizza : ${pizzas}"
+				th:object="${pizza}"
+			>
+				[[*{name}]] - [[*{price}]]<br>
+				[[*{description}]]<br>
+				<img th:src="*{photo}" />
+			</li>
+		</ul>
+	</div>
+	<div th:if="${pizzas.size() < 1}">
+		<h1>
+			Nessuna pizza ancora inserita :-(			
+		</h1>
+	</div>
+</body>
+</html>
