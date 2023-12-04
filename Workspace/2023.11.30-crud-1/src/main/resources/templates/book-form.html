@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>BOOK CREATE:</h1>
+	<form
+		th:object="${book}"
+		method="POST"
+		>
+		<lable for="title">Title</lable>
+		<input type="text" id="title" th:field="*{title}">
+		<br>
+		<div th:replace="frags :: errorDiv('title')" />
+		<lable for="author">Author</lable>
+		<input type="text" id="author" th:field="*{author}">
+		<br>	
+		<div th:replace="frags :: errorDiv('author')" />
+		<lable for="isbn">ISBN</lable>
+		<input type="text" id="isbn" th:field="*{isbn}">
+		<br>		
+		<div th:replace="frags :: errorDiv('isbn')" />
+		<input type="submit" value="STORE">
+	</form>
+</body>
+</html>

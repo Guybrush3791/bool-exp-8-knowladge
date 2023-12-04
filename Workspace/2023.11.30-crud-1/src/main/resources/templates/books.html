@@ -11,6 +11,7 @@
 		<input id="search" type="text" name="q" th:value="${q}">
 		<input type="submit" value="SEARCH" > 		
 	</form>
+	<a href="/books/create">CREATE</a>
 	<ul>
 		<li
 			th:each="book : ${books}"

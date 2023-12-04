@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form
+		th:fragment="searchForm"
+	>
+		<label for="query">Search:</label>
+		<input type="text" id="qquery" name="q" th:value="${query}">
+		<input type="submit" value="SEARCH">
+	</form>
+</body>
+</html>

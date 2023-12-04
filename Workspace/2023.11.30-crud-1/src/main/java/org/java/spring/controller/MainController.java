@@ -7,9 +7,15 @@ import org.java.spring.db.serv.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import jakarta.validation.Valid;
 
 @Controller
 public class MainController {
@@ -39,5 +45,41 @@ public class MainController {
 		model.addAttribute("book", book);
 		
 		return "book";
+	}
+	
+	@GetMapping("/books/create")
+	public String createBook(Model model) {
+		
+		Book book = new Book();
+		
+		model.addAttribute("book", book);
+		
+		return "book-form";
+	}
+	@PostMapping("/books/create")
+	public String storeBook(
+			Model model,
+			@Valid @ModelAttribute Book book, 
+			BindingResult bindingResult) {
+		
+		System.out.println("Book:\n" + book);
+		System.out.println("\n---------------\n");
+		System.out.println("Error:\n" + bindingResult);
+		
+		if (bindingResult.hasErrors()) {
+			
+			System.out.println(bindingResult);
+			model.addAttribute("book", book);
+			return "book-form";
+		}
+		try {
+			bookService.save(book);
+		} catch(Exception e) {
+			bindingResult.addError(new ObjectError("isbn", "ISBN must be unique"));
+			model.addAttribute("book", book);
+			return "book-form";
+		}
+		
+		return "redirect:/";
 	}
 }

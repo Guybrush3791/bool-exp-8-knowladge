@@ -23,13 +23,13 @@ public class Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 	
-		bookService.save(new Book("My Best Java Book 1 - Pluto", "Guybrush", "123423423"));
-		bookService.save(new Book("My Best Java Book 2 - Pluto", "Guybrush", "123423424"));
-		bookService.save(new Book("My Best Java Book 3", "Guybrush", "123423425"));
-		bookService.save(new Book("My Best Java Book 4 - Franco", "Franco", "123423426"));
-		bookService.save(new Book("My Best Java Book 5 - Franco", "Carla", "123423427"));
-		bookService.save(new Book("My Best Java Book 6 - Plutoasdfasdfasdfasdfasdfasdfsadfa", "Gianna", "123423428"));
-		bookService.save(new Book("My Best Java Book 7 - Franco", "Guybrush", "123423429"));
+		bookService.save(new Book("My Best Java Book 1 - Pluto", "Guybrush", "1234234212345673"));
+		bookService.save(new Book("My Best Java Book 2 - Pluto", "Guybrush", "1234234212345674"));
+		bookService.save(new Book("My Best Java Book 3", "Guybrush", "1234234212345675"));
+		bookService.save(new Book("My Best Java Book 4 - Franco", "Franco", "1234234212345676"));
+		bookService.save(new Book("My Best Java Book 5 - Franco", "Carla", "1234234212345677"));
+		bookService.save(new Book("My Best Java Book 6 - Plutoasdfasdfasdfasdfasdfasdfsadfa", "Gianna", "1234234212345678"));
+		bookService.save(new Book("My Best Java Book 7 - Franco", "Guybrush", "1234234212345679"));
 		
 //		extraLambda();
 //		extraLambda2();
@@ -163,12 +163,12 @@ public class Application implements CommandLineRunner {
 	public void extraGenerics() {
 		
 		MyMath myMath = new MyMath();
-		int value = myMath.sum(10, 20);
+		int intValue = myMath.sum(10, 20).intValue();
 		
-		System.out.println(value);
+		System.out.println(intValue);
 		
-		value = myMath.sum(30f, 40f);
-		System.out.println(value);
+		float floatValue = myMath.sum(30f, 40f).floatValue();
+		System.out.println(floatValue);
 		
 //		MyMath<String> stringMath = new MyMath<>();
 	}

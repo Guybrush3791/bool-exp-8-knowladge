@@ -1,5 +1,8 @@
 package org.java.spring.db.pojo;
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.UniqueElements;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,12 +17,15 @@ public class Book {
 	private int id;
 	
 	@Column(length = 60)
+	@Length(min = 3, max = 60, message = "Title must be between 3 and 60 characters")
 	private String title;
 	
 	@Column(columnDefinition = "TEXT")
+	@Length(min = 3, message = "Author must be longer then 3 characters")
 	private String author;
 	
 	@Column(nullable = false, unique = true)
+	@Length(min = 16, max = 16, message = "ISBN must be 16 character long")
 	private String isbn;
 	
 	public Book() { }
