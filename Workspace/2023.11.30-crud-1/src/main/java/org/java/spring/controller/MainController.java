@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -72,10 +73,13 @@ public class MainController {
 			model.addAttribute("book", book);
 			return "book-form";
 		}
+		
 		try {
+			
 			bookService.save(book);
 		} catch(Exception e) {
-			bindingResult.addError(new ObjectError("isbn", "ISBN must be unique"));
+			
+			bindingResult.addError(new FieldError("book", "isbn", book.getIsbn(), false, null, null, "ISBN must be unique"));
 			model.addAttribute("book", book);
 			return "book-form";
 		}
