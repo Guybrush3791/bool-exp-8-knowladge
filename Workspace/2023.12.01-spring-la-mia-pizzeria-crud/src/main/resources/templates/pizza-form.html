@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>New pizza</h1>
+	<form method="POST" th:object="${pizza}">
+		<label for="name">Nome</label>
+		<input type="text" id="name" th:field="*{name}">
+		<br>
+		<div th:replace="frags :: errorDiv('name')" />
+		<label for="description">Description</label>
+		<input type="text" id="description" th:field="*{description}">
+		<br>
+		<div th:replace="frags :: errorDiv('description')" />
+		<label for="photo">Photo</label>
+		<input type="text" id="photo" th:field="*{photo}">
+		<br>
+		<div th:replace="frags :: errorDiv('photo')" />
+		<label for="price">Price</label>
+		<input type="number" id="price" th:field="*{price}">
+		<br>
+		<div th:replace="frags :: errorDiv('price')" />
+		<input type="submit" value="CREATE">
+	</form>
+</body>
+</html>

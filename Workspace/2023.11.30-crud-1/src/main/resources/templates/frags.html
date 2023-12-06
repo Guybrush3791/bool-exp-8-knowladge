@@ -9,7 +9,8 @@
 		th:if="${#fields.hasErrors(field)}">
 		<ul>
 		   <li 
-		   		th:each="err : ${#fields.errors(field)}">
+		   		th:each="err : ${#fields.errors(field)}"
+		   		>
 		   		[[${err}]]	
 		   	</li>
 		</ul>

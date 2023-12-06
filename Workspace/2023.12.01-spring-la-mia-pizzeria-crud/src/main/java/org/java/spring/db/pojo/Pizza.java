@@ -1,10 +1,15 @@
 package org.java.spring.db.pojo;
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.URL;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Digits;
+import jakarta.validation.constraints.Positive;
 
 @Entity
 public class Pizza {
@@ -14,14 +19,19 @@ public class Pizza {
 	private int id;
 	
 	@Column(length = 32, nullable = false)
+	@Length(min = 3, max = 32)
 	private String name;
 	
 	@Column(columnDefinition = "TEXT")
+	@Length(min = 3)
 	private String description;
 	
+	@Column(columnDefinition = "TEXT")
+	@URL
 	private String photo;
 	
 	@Column(nullable = false)
+	@Positive
 	private int price;
 	
 	public Pizza() { }

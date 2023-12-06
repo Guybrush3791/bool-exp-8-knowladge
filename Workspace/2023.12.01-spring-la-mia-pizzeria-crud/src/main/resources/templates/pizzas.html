@@ -7,6 +7,11 @@
 <body>
 	<div th:if="${pizzas.size() > 0}">
 		<h1>Pizze:</h1>
+		<h2>
+			<a href="/pizza/create">
+				CREATE NEW PIZZA
+			</a>
+		</h2>
 		<div th:replace="frags :: searchForm" />
 		<ul>
 			<li
@@ -15,7 +20,7 @@
 			>
 				<a th:href="@{/pizzas/{id} (id=*{id})}">
 					[[*{name}]] - [[*{price}]]<br>
-					<img th:src="*{photo}" />
+					<img th:src="*{photo}" width="300px"/>
 				</a>
 			</li>
 		</ul>

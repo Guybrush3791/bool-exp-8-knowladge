@@ -8,6 +8,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.Digits;
 
 @Entity
 public class Book {
@@ -27,6 +29,9 @@ public class Book {
 	@Column(nullable = false, unique = true)
 	@Length(min = 16, max = 16, message = "ISBN must be 16 character long")
 	private String isbn;
+	
+	@DecimalMin(value = "0.0", message = "Il valore deve essere maggiore o uguale a 0.0")
+	private double test;
 	
 	public Book() { }
 	public Book(String title, String author, String isbn) {
@@ -59,6 +64,12 @@ public class Book {
 	}
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
+	}
+	public double getTest() {
+		return test;
+	}
+	public void setTest(double test) {
+		this.test = test;
 	}
 	
 	@Override

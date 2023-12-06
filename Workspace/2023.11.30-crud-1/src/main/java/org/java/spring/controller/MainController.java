@@ -1,6 +1,7 @@
 package org.java.spring.controller;
 
 import java.util.List;
+import java.util.function.Function;
 
 import org.java.spring.db.pojo.Book;
 import org.java.spring.db.serv.BookService;
@@ -63,13 +64,47 @@ public class MainController {
 			@Valid @ModelAttribute Book book, 
 			BindingResult bindingResult) {
 		
+		return saveBook(model, book, bindingResult);
+	}
+
+	@GetMapping("/books/edit/{id}")
+	public String editBook(Model model,
+			@PathVariable int id) {
+		
+		Book book = bookService.findById(id);
+		model.addAttribute("book", book);
+		
+		return "book-form";
+	}
+	@PostMapping("/books/edit/{id}")
+	public String updateBook(Model model,
+			@Valid @ModelAttribute Book book, 
+			BindingResult bindingResult) {
+		
+		return saveBook(model, book, bindingResult);
+	}
+	
+	@PostMapping("/books/delete/{id}")
+	public String deleteBook(@PathVariable int id) {
+		
+		Book book = bookService.findById(id);
+		bookService.delete(book);
+		
+		System.out.println(book);
+		
+		return "redirect:/";
+	}
+	
+	private String saveBook(Model model,
+			@Valid @ModelAttribute Book book, 
+			BindingResult bindingResult) {
+		
 		System.out.println("Book:\n" + book);
 		System.out.println("\n---------------\n");
 		System.out.println("Error:\n" + bindingResult);
 		
 		if (bindingResult.hasErrors()) {
 			
-			System.out.println(bindingResult);
 			model.addAttribute("book", book);
 			return "book-form";
 		}

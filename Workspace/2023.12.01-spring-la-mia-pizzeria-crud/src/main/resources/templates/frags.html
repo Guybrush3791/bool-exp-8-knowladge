@@ -12,5 +12,16 @@
 		<input type="text" id="qquery" name="q" th:value="${query}">
 		<input type="submit" value="SEARCH">
 	</form>
+	
+	<div th:fragment="errorDiv(field)"
+		th:if="${#fields.hasErrors(field)}">
+		<ul>
+		   <li 
+		   		th:each="err : ${#fields.errors(field)}"
+		   		>
+		   		[[${err}]]	
+		   	</li>
+		</ul>
+	</div>
 </body>
 </html>
