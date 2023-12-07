@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import jakarta.validation.Valid;
 
@@ -26,6 +27,8 @@ public class PizzaController {
 	@GetMapping
 	public String getPizzas(Model model,
 			@RequestParam(name = "q", required = false) String query) {
+		
+		System.out.println("redirectAttributes: " + model.getAttribute("deletedPizza"));
 		
 		List<Pizza> pizzas = query == null 
 							 ? pizzaServ.findAll()
@@ -60,6 +63,40 @@ public class PizzaController {
 			@Valid @ModelAttribute Pizza pizza,
 			BindingResult bindingResult) {
 		
+		return savePizza(model, pizza, bindingResult);
+	}
+	
+	@GetMapping("/pizza/edit/{id}")
+	public String editPizza(Model model, @PathVariable int id) {
+		
+		Pizza pizza = pizzaServ.findById(id);
+		model.addAttribute("pizza", pizza);
+				
+		return "pizza-form";
+	}
+	@PostMapping("/pizza/edit/{id}")
+	public String updatePizza(Model model,
+			@Valid @ModelAttribute Pizza pizza,
+			BindingResult bindingResult) {
+		
+		return savePizza(model, pizza, bindingResult);
+	}
+	
+	@PostMapping("/pizza/delete/{id}")
+	public String deletePizza(@PathVariable int id, RedirectAttributes redirectAttributes) {
+		
+		Pizza pizza = pizzaServ.findById(id);
+		pizzaServ.delete(pizza);
+		
+		redirectAttributes.addFlashAttribute("deletedPizza", pizza);
+		
+		return "redirect:/";
+	}
+	
+	private String savePizza(Model model,
+			@Valid @ModelAttribute Pizza pizza,
+			BindingResult bindingResult) {
+		
 		System.out.println(pizza);
 		
 		if (bindingResult.hasErrors()) {
@@ -75,7 +112,7 @@ public class PizzaController {
 		} catch(Exception e) {
 			
 			model.addAttribute("pizza", pizza);
-			return "book-form";
+			return "pizza-form";
 		}
 		
 		

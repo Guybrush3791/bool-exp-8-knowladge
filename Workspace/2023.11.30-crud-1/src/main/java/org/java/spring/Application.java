@@ -1,10 +1,13 @@
 package org.java.spring;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.java.spring.db.pojo.Book;
+import org.java.spring.db.pojo.Borrowing;
 import org.java.spring.db.serv.BookService;
+import org.java.spring.db.serv.BorrowingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +18,9 @@ public class Application implements CommandLineRunner {
 
 	@Autowired
 	private BookService bookService;
+	
+	@Autowired
+	private BorrowingService borrowingService;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -31,10 +37,18 @@ public class Application implements CommandLineRunner {
 		bookService.save(new Book("My Best Java Book 6 - Plutoasdfasdfasdfasdfasdfasdfsadfa", "Gianna", "1234234212345678"));
 		bookService.save(new Book("My Best Java Book 7 - Franco", "Guybrush", "1234234212345679"));
 		
+		List<Book> books = bookService.findAll();
+		
+		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(9), books.get(0)));
+		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(89), books.get(1)));
+		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(32), books.get(2)));
+		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(3), books.get(3)));
+		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(5), books.get(4)));
+		
 //		extraLambda();
 //		extraLambda2();
 		
-		extraGenerics();
+//		extraGenerics();
 	}
 	
 	@FunctionalInterface

@@ -7,6 +7,7 @@
 <body>
 	<div th:if="${pizzas.size() > 0}">
 		<h1>Pizze:</h1>
+		<h1 th:if="${deletedPizza != null}">Deleted pizza: [[${deletedPizza.name}]]</h1>
 		<h2>
 			<a href="/pizza/create">
 				CREATE NEW PIZZA
@@ -19,9 +20,20 @@
 				th:object="${pizza}"
 			>
 				<a th:href="@{/pizzas/{id} (id=*{id})}">
-					[[*{name}]] - [[*{price}]]<br>
+					[[*{name}]] - [[*{price}]]euro<br>
 					<img th:src="*{photo}" width="300px"/>
 				</a>
+				<br>
+				<a th:href="@{/pizza/edit/{id} (id=*{id})}">
+					EDIT	
+				</a>
+				- 
+				<form
+					th:action="@{/pizza/delete/{id} (id=*{id})}"
+					method="POST"
+					style="display: inline-block;">
+					<input type="submit" value="DELETE">
+				</form>
 			</li>
 		</ul>
 	</div>

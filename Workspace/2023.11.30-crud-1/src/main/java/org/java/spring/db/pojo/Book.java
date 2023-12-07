@@ -1,5 +1,7 @@
 package org.java.spring.db.pojo;
 
+import java.util.List;
+
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.UniqueElements;
 
@@ -8,6 +10,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Digits;
 
@@ -32,6 +35,9 @@ public class Book {
 	
 	@DecimalMin(value = "0.0", message = "Il valore deve essere maggiore o uguale a 0.0")
 	private double test;
+	
+	@OneToMany(mappedBy = "book")
+	private List<Borrowing> borrowings;
 	
 	public Book() { }
 	public Book(String title, String author, String isbn) {
@@ -70,6 +76,12 @@ public class Book {
 	}
 	public void setTest(double test) {
 		this.test = test;
+	}
+	public List<Borrowing> getBorrowings() {
+		return borrowings;
+	}
+	public void setBorrowings(List<Borrowing> borrowings) {
+		this.borrowings = borrowings;
 	}
 	
 	@Override

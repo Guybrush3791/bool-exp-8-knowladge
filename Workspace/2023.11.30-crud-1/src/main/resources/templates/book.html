@@ -12,5 +12,15 @@
 		[[*{title}]] - [[*{author}]] <br>
 		[[*{isbn}]]			
 	</h1>
+	<h2>
+		<ul>
+			<li
+				th:each="borrowing : *{borrowings}"
+				th:object="${borrowing}"
+			>
+				[[*{name}]] - [[*{date}]]
+			</li>
+		</ul>
+	</h2>
 </body>
 </html>
