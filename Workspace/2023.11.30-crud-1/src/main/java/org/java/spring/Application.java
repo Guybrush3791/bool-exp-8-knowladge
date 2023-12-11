@@ -6,8 +6,10 @@ import java.util.List;
 
 import org.java.spring.db.pojo.Book;
 import org.java.spring.db.pojo.Borrowing;
+import org.java.spring.db.pojo.Category;
 import org.java.spring.db.serv.BookService;
 import org.java.spring.db.serv.BorrowingService;
+import org.java.spring.db.serv.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -22,6 +24,9 @@ public class Application implements CommandLineRunner {
 	@Autowired
 	private BorrowingService borrowingService;
 	
+	@Autowired
+	private CategoryService categoryService;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
@@ -29,13 +34,21 @@ public class Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 	
-		bookService.save(new Book("My Best Java Book 1 - Pluto", "Guybrush", "1234234212345673"));
-		bookService.save(new Book("My Best Java Book 2 - Pluto", "Guybrush", "1234234212345674"));
+		Category cat1 = new Category("cat 1", "desc cat 1");
+		Category cat2 = new Category("cat 2", "desc cat 2");
+		Category cat3 = new Category("cat 3", "desc cat 3");
+		
+		categoryService.save(cat1);
+		categoryService.save(cat2);
+		categoryService.save(cat3);
+		
+		bookService.save(new Book("My Best Java Book 1 - Pluto", "Guybrush", "1234234212345673", cat1, cat2));
+		bookService.save(new Book("My Best Java Book 2 - Pluto", "Guybrush", "1234234212345674", cat3));
 		bookService.save(new Book("My Best Java Book 3", "Guybrush", "1234234212345675"));
-		bookService.save(new Book("My Best Java Book 4 - Franco", "Franco", "1234234212345676"));
-		bookService.save(new Book("My Best Java Book 5 - Franco", "Carla", "1234234212345677"));
-		bookService.save(new Book("My Best Java Book 6 - Plutoasdfasdfasdfasdfasdfasdfsadfa", "Gianna", "1234234212345678"));
-		bookService.save(new Book("My Best Java Book 7 - Franco", "Guybrush", "1234234212345679"));
+		bookService.save(new Book("My Best Java Book 4 - Franco", "Franco", "1234234212345676", cat1, cat2, cat3));
+		bookService.save(new Book("My Best Java Book 5 - Franco", "Carla", "1234234212345677", cat3));
+		bookService.save(new Book("My Best Java Book 6 - Plutoasdfasdfasdfasdfasdfasdfsadfa", "Gianna", "1234234212345678", cat1));
+		bookService.save(new Book("My Best Java Book 7 - Franco", "Guybrush", "1234234212345679", cat2, cat3));
 		
 		List<Book> books = bookService.findAll();
 		
@@ -44,7 +57,7 @@ public class Application implements CommandLineRunner {
 		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(32), books.get(2)));
 		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(3), books.get(3)));
 		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(5), books.get(4)));
-		
+
 //		extraLambda();
 //		extraLambda2();
 		

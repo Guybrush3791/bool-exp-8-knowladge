@@ -6,10 +6,29 @@
 </head>
 <body th:object="${pizza}">
 	<h1>Pizza:</h1>
+	<h2>
+		<a th:href="@{/pizzas/{id}/discount/create (id=*{id})}">
+			Crea nuova offerta speciale
+		</a>
+	</h2>
 	<div>
 		[[*{name}]] - [[*{price}]]<br>
 		[[*{description}]] <br>
 		<img th:src="*{photo}" />		
+	</div>
+	<div
+		th:if="*{discounts.size() > 0}"
+	>
+		<h3>Offerte speciali:</h3>
+		<ul>
+			<li
+				th:each="discount : *{discounts}"
+				th:object="${discount}"
+			>
+				[[*{title}]] - 
+				<a th:href="@{/discount/edit/{id} (id=*{id})}">EDIT</a>
+			</li>
+		</ul>
 	</div>
 </body>
 </html>

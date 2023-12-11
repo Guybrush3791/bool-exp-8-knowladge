@@ -22,6 +22,22 @@
 		<input type="text" id="isbn" th:field="*{isbn}">
 		<br>		
 		<div th:replace="frags :: errorDiv('isbn')" />
+		<h4>Categories:</h4>
+		<div
+			th:each="category : ${categories}"
+			th:object="${category}"
+		>	
+			<input 
+				type="checkbox"
+				th:id="${'category-' + category.id}" 
+				th:value="*{id}" 
+				th:field="${book.categories}"
+			>
+			<label
+				th:for="${'category-' + category.id}"
+			>[[*{name}]]</label>
+			<br>
+		</div>		
 		<input type="submit" value="STORE">
 	</form>
 </body>

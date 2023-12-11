@@ -1,5 +1,6 @@
 package org.java.spring.db.pojo;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.hibernate.validator.constraints.Length;
@@ -10,6 +11,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Digits;
@@ -39,12 +41,16 @@ public class Book {
 	@OneToMany(mappedBy = "book")
 	private List<Borrowing> borrowings;
 	
+	@ManyToMany
+	private List<Category> categories;
+	
 	public Book() { }
-	public Book(String title, String author, String isbn) {
+	public Book(String title, String author, String isbn, Category... categories) {
 		
 		setTitle(title);
 		setAuthor(author);
 		setIsbn(isbn);
+		setCategories(categories);
 	}
 	
 	public int getId() {
@@ -82,6 +88,18 @@ public class Book {
 	}
 	public void setBorrowings(List<Borrowing> borrowings) {
 		this.borrowings = borrowings;
+	}
+	public List<Category> getCategories() {
+		return categories;
+	}
+	public void setCategories(List<Category> categories) {
+		this.categories = categories;
+	}
+	public void setCategories(Category... categories) {	
+		setCategories(Arrays.asList(categories));
+	}
+	public void clearCategories() {
+		getCategories().clear();
 	}
 	
 	@Override

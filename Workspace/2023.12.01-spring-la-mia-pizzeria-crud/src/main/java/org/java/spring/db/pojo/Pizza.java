@@ -1,5 +1,7 @@
 package org.java.spring.db.pojo;
 
+import java.util.List;
+
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
@@ -8,6 +10,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.Digits;
 import jakarta.validation.constraints.Positive;
 
@@ -33,6 +36,9 @@ public class Pizza {
 	@Column(nullable = false)
 	@Positive
 	private int price;
+	
+	@OneToMany(mappedBy = "pizza")
+	private List<Discount> discounts;
 	
 	public Pizza() { }
 	public Pizza(String name, String description, String photo, int price) {
@@ -72,6 +78,12 @@ public class Pizza {
 	}
 	public void setPrice(int price) {
 		this.price = price;
+	}
+	public List<Discount> getDiscounts() {
+		return discounts;
+	}
+	public void setDiscounts(List<Discount> discounts) {
+		this.discounts = discounts;
 	}
 	
 	@Override

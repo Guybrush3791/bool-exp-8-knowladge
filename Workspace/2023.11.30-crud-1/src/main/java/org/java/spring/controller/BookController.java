@@ -4,7 +4,11 @@ import java.util.List;
 import java.util.function.Function;
 
 import org.java.spring.db.pojo.Book;
+import org.java.spring.db.pojo.Borrowing;
+import org.java.spring.db.pojo.Category;
 import org.java.spring.db.serv.BookService;
+import org.java.spring.db.serv.BorrowingService;
+import org.java.spring.db.serv.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,6 +28,12 @@ public class BookController {
 
 	@Autowired
 	private BookService bookService;
+	
+	@Autowired
+	private BorrowingService borrowingService;
+	
+	@Autowired
+	private CategoryService categoryService;
 	
 	@GetMapping
 	public String getBooks(Model model,
@@ -71,7 +81,10 @@ public class BookController {
 	public String editBook(Model model,
 			@PathVariable int id) {
 		
+		List<Category> categories = categoryService.findAll();
 		Book book = bookService.findById(id);
+		
+		model.addAttribute("categories", categories);
 		model.addAttribute("book", book);
 		
 		return "book-form";
@@ -88,6 +101,13 @@ public class BookController {
 	public String deleteBook(@PathVariable int id) {
 		
 		Book book = bookService.findById(id);
+		
+		book.clearCategories();
+		bookService.save(book);
+		
+		List<Borrowing> borrowings = book.getBorrowings();
+		borrowings.forEach(borrowingService::delete);
+		
 		bookService.delete(book);
 		
 		System.out.println(book);

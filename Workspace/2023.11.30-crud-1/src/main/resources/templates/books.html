@@ -35,14 +35,32 @@
 				<input type="submit" value="DELETE">	
 			</form>
 			<br>
-			<ul>
-				<li
-					th:each="borrowing : *{borrowings}"
-					th:object="${borrowing}"
+			<div
+				th:if="*{borrowings.size() > 0}"
 				>
-					[[*{name}]] - [[*{date}]]
-				</li>
-			</ul>
+				<h4>Borrowings</h4>
+				<ul>
+					<li
+						th:each="borrowing : *{borrowings}"
+						th:object="${borrowing}"
+					>
+						[[*{name}]] - [[*{date}]]
+					</li>
+				</ul>
+			</div>
+			<div
+				th:if="*{categories.size() > 0}"
+				>
+				<h4>Categories</h4>
+				<ul>
+					<li
+						th:each="category : *{categories}"
+						th:object="${category}"
+					>
+						[[*{name}]] <br> [[*{description}]]
+					</li>
+				</ul>
+			</div>
 		</li>
 	</ul>
 </body>
