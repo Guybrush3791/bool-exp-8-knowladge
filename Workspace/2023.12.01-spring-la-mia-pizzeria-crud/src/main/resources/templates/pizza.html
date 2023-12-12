@@ -30,5 +30,18 @@
 			</li>
 		</ul>
 	</div>
+	<div
+		th:if="*{ingredients.size() > 0}"
+	>
+		<h3>Ingredients:</h3>
+		<ul>
+			<li
+				th:each="ingredient : *{ingredients}"
+				th:object="${ingredient}"
+			>
+				[[*{name}]]
+			</li>
+		</ul>
+	</div>
 </body>
 </html>

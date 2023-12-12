@@ -23,6 +23,21 @@
 		<input type="number" id="price" th:field="*{price}">
 		<br>
 		<div th:replace="frags :: errorDiv('price')" />
+		<h3>Ingredients:</h3>
+		<div
+			th:each="ingredient : ${ingredients}"
+			th:object="${ingredient}"
+		>
+			<input 
+				type="checkbox"
+				th:id="*{'ingredient-' + id}"
+				th:value="*{id}"
+				th:field="${pizza.ingredients}"
+				>
+			<label th:for="*{'ingredient-' + id}">
+				[[*{name}]]
+			</label>
+		</div>
 		<input type="submit" value="CREATE">
 	</form>
 </body>

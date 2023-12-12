@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Ingredients:</h1>
+	<a href="/ingredient/create">CREATE NEW INGREDIENT</a>
+	<ul>
+		<li
+			th:each="ingredient : ${ingredients}"
+			th:object="${ingredient}"
+		>
+			[[*{name}]] - 
+			<form 
+				th:action="@{/ingredient/delete/{id} (id=*{id})}" 
+				method="POST"
+				style="display: inline-block;">
+				<input type="submit" value="DELETE">
+			</form>
+		</li>
+	</ul>
+</body>
+</html>

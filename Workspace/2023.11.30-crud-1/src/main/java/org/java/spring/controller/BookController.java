@@ -1,7 +1,6 @@
 package org.java.spring.controller;
 
 import java.util.List;
-import java.util.function.Function;
 
 import org.java.spring.db.pojo.Book;
 import org.java.spring.db.pojo.Borrowing;
@@ -10,11 +9,11 @@ import org.java.spring.db.serv.BookService;
 import org.java.spring.db.serv.BorrowingService;
 import org.java.spring.db.serv.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
-import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,8 +35,11 @@ public class BookController {
 	private CategoryService categoryService;
 	
 	@GetMapping
-	public String getBooks(Model model,
-			@RequestParam(required = false) String q) {
+	public String getBooks(
+			Model model,
+			@RequestParam(required = false) String q,
+			Authentication auth
+		) {
 		
 		List<Book> books = q == null  
 					? bookService.findAll()
@@ -45,6 +47,11 @@ public class BookController {
 		
 		model.addAttribute("books", books);
 		model.addAttribute("q", q == null ? "" : q);
+		
+		System.out.println(
+				auth == null
+				? "No logged in"
+				: "User: " + auth.getName());
 		
 		return "books";
 	}
@@ -102,15 +109,13 @@ public class BookController {
 		
 		Book book = bookService.findById(id);
 		
-		book.clearCategories();
-		bookService.save(book);
+//		book.clearCategories();
+//		bookService.save(book);
 		
 		List<Borrowing> borrowings = book.getBorrowings();
 		borrowings.forEach(borrowingService::delete);
 		
 		bookService.delete(book);
-		
-		System.out.println(book);
 		
 		return "redirect:/";
 	}

@@ -4,6 +4,11 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.java.spring.auth.conf.AuthConf;
+import org.java.spring.auth.db.pojo.Role;
+import org.java.spring.auth.db.pojo.User;
+import org.java.spring.auth.db.serv.RoleService;
+import org.java.spring.auth.db.serv.UserService;
 import org.java.spring.db.pojo.Book;
 import org.java.spring.db.pojo.Borrowing;
 import org.java.spring.db.pojo.Category;
@@ -26,6 +31,12 @@ public class Application implements CommandLineRunner {
 	
 	@Autowired
 	private CategoryService categoryService;
+	
+	@Autowired
+	private RoleService roleService;
+	
+	@Autowired
+	private UserService userService;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -58,6 +69,24 @@ public class Application implements CommandLineRunner {
 		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(3), books.get(3)));
 		borrowingService.save(new Borrowing("Guybrush", LocalDate.now().minusDays(5), books.get(4)));
 
+		Role roleUser = new Role("USER");
+		Role roleAdmin = new Role("ADMIN");
+		Role roleGod = new Role("GOD");
+		
+		roleService.save(roleUser);
+		roleService.save(roleAdmin);
+		roleService.save(roleGod);
+		
+		String pws = AuthConf.passwordEncoder().encode("pws");
+		
+		User guybrushUser = new User("guybrushUser", pws, roleUser);
+		User guybrushAdmin = new User("guybrushAdmin", pws, roleAdmin);
+		User guybrushGod = new User("guybrushGod", pws, roleGod);
+		
+		userService.save(guybrushUser);
+		userService.save(guybrushAdmin);
+		userService.save(guybrushGod);
+		
 //		extraLambda();
 //		extraLambda2();
 		

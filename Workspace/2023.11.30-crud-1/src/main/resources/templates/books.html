@@ -6,13 +6,18 @@
 </head>
 <body>
 	<h1>Books:</h1>
+	User: <span sec:authentication="name"></span>
 	<form>
 		<label for="search">SEARCH</label>
 		<input id="search" type="text" name="q" th:value="${q}">
 		<input type="submit" value="SEARCH" > 		
 	</form>
-	<a href="/books/create">CREATE</a> <br>
-	<a href="/books/borrow">ADD BORROWING</a>
+	<div
+		sec:authorize="hasAuthority('ADMIN')"
+	>
+		<a href="/books/create">CREATE</a> <br>
+		<a href="/books/borrow">ADD BORROWING</a>		
+	</div>
 	<ul>
 		<li
 			th:each="book : ${books}"

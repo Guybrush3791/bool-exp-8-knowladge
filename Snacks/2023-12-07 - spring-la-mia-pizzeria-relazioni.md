@@ -6,7 +6,7 @@
 > [!attention] IMPORTANTE
 > Ricordatevi di sganciare la vostra vecchia repository e di crearne una nuova per questo esercizio, che prosegue il lavoro della pizzeria, dove lo avevate lasciato
 
-Nuova importante funzionalità : **le offerte speciali**!
+Nuova importante funzionalità: **le offerte speciali**!
 
 In alcuni momenti potremmo voler vendere le nostre pizze a un prezzo scontato.
 
