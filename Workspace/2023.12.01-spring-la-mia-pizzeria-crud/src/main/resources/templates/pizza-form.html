@@ -7,6 +7,9 @@
 <body>
 	<h1>New pizza</h1>
 	<form method="POST" th:object="${pizza}">
+		
+		<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+		
 		<label for="name">Nome</label>
 		<input type="text" id="name" th:field="*{name}">
 		<br>

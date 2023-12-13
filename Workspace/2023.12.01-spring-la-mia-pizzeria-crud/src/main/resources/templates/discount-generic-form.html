@@ -18,7 +18,7 @@
 				th:each="pizza : ${pizzas}"
 				th:object="${pizza}"
 				th:value="*{id}"
-				th:selected="${pizza.id == discount.pizza.id}"
+				th:selected="${discount.pizza != null && pizza.id == discount.pizza.id}"
 			>
 				[[*{name}]]
 			</option>

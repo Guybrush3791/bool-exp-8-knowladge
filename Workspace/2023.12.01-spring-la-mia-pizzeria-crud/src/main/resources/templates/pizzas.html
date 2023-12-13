@@ -7,8 +7,11 @@
 <body>
 	<div th:if="${pizzas.size() > 0}">
 		<h1>Pizze:</h1>
+		<a href="logout">Logout</a>
 		<h1 th:if="${deletedPizza != null}">Deleted pizza: [[${deletedPizza.name}]]</h1>
-		<h2>
+		<h2
+			sec:authorize="hasAuthority('ADMIN')"
+		>
 			<a href="/pizza/create">
 				CREATE NEW PIZZA
 			</a>
@@ -28,16 +31,20 @@
 					<img th:src="*{photo}" width="300px"/>
 				</a>
 				<br>
-				<a th:href="@{/pizza/edit/{id} (id=*{id})}">
-					EDIT	
-				</a>
-				- 
-				<form
-					th:action="@{/pizza/delete/{id} (id=*{id})}"
-					method="POST"
-					style="display: inline-block;">
-					<input type="submit" value="DELETE">
-				</form>
+				<div
+					sec:authorize="hasAuthority('ADMIN')"
+					>
+					<a th:href="@{/pizza/edit/{id} (id=*{id})}">
+						EDIT	
+					</a>
+					- 
+					<form
+						th:action="@{/pizza/delete/{id} (id=*{id})}"
+						method="POST"
+						style="display: inline-block;">
+						<input type="submit" value="DELETE">
+					</form>
+				</div>
 			</li>
 		</ul>
 	</div>

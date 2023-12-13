@@ -1,6 +1,6 @@
 package org.java.spring.auth.conf;
 
-import org.java.spring.auth.db.serv.UserService;
+import org.java.spring.auth.db.service.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
@@ -12,14 +12,18 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class AuthConf {
-    @Bean
+
+	@Bean
     SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		
-		http.csrf().disable()
-			.cors().disable()
-			.authorizeHttpRequests()
-//	        .requestMatchers("/books/create/**").hasAnyAuthority("ADMIN", "GOD")
-	        .requestMatchers("/**").permitAll()
+		http.authorizeHttpRequests()
+	        .requestMatchers(
+	        		"/*/create/**", 
+	        		"/*/edit/**", 
+	        		"/*/delete/**", 
+	        		"/*/*/*/create"
+	        	).hasAuthority("ADMIN")
+	        .requestMatchers("/**").hasAnyAuthority("USER", "ADMIN")
 	        .and().formLogin()
 	        .and().logout()
 	    ;
@@ -33,7 +37,7 @@ public class AuthConf {
 	}
     
     @Bean
-	public static PasswordEncoder passwordEncoder() {
+	PasswordEncoder passwordEncoder() {
       return new BCryptPasswordEncoder();
     }
     
@@ -47,5 +51,4 @@ public class AuthConf {
    
     	return authProvider;
     }
-   
 }

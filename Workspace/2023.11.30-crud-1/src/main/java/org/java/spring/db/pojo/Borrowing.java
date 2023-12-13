@@ -2,6 +2,8 @@ package org.java.spring.db.pojo;
 
 import java.time.LocalDate;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,6 +21,7 @@ public class Borrowing {
 	private LocalDate date;
 	
 	@ManyToOne
+	@JsonIgnore
 	private Book book;
 	
 	public Borrowing() { }

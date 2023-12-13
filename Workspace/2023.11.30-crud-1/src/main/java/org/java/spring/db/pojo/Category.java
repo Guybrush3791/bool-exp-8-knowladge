@@ -3,6 +3,8 @@ package org.java.spring.db.pojo;
 import java.util.Arrays;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -23,6 +25,7 @@ public class Category {
 	private String description;
 	
 	@ManyToMany(mappedBy = "categories")
+	@JsonIgnore
 	private List<Book> books;
 	
 	public Category() { }

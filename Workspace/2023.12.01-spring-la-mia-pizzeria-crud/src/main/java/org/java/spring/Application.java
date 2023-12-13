@@ -2,6 +2,10 @@ package org.java.spring;
 
 import java.time.LocalDate;
 
+import org.java.spring.auth.db.pojo.Role;
+import org.java.spring.auth.db.pojo.User;
+import org.java.spring.auth.db.service.RoleService;
+import org.java.spring.auth.db.service.UserService;
 import org.java.spring.db.pojo.Discount;
 import org.java.spring.db.pojo.Ingredient;
 import org.java.spring.db.pojo.Pizza;
@@ -12,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner {
@@ -24,6 +29,15 @@ public class Application implements CommandLineRunner {
 	
 	@Autowired
 	private IngredientService ingredientService;
+	
+	@Autowired
+	private RoleService roleService;
+	
+	@Autowired
+	private UserService userService;
+	
+	@Autowired
+	private PasswordEncoder passwordEncoder;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -53,5 +67,19 @@ public class Application implements CommandLineRunner {
 				LocalDate.now().plusDays(10),
 				"My Discount",
 				p2));
+		
+		Role roleUser = new Role("USER");
+		Role roleAdmin = new Role("ADMIN");
+		
+		roleService.save(roleUser);
+		roleService.save(roleAdmin);
+		
+		String pws = passwordEncoder.encode("pws");
+		
+		User guybrushUser = new User("guybrushUser", pws, roleUser);
+		User guybrushAdmin = new User("guybrushAdmin", pws, roleAdmin);
+		
+		userService.save(guybrushUser);
+		userService.save(guybrushAdmin);
 	}
 }

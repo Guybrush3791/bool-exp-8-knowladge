@@ -15,7 +15,7 @@ Quindi inseriamo l’autenticazione in modo che solo gli utenti registrati possa
 
 Creiamo le `entity` necessarie e popoliamo a mano i dati degli utenti nel database.
 
-Sono previsti due ruoli : `USER` e `ADMIN`
+Sono previsti due ruoli: `USER` e `ADMIN`
 
 Gli utenti con ruolo `USER` possono accedere solo alla **pagina index** e a **quella di dettaglio**.
 Gli utenti `ADMIN` possono **fare tutto**.
