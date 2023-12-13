@@ -1,6 +1,7 @@
 package org.java.spring.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.java.spring.db.pojo.Book;
 import org.java.spring.db.pojo.Borrowing;
@@ -9,6 +10,8 @@ import org.java.spring.db.serv.BookService;
 import org.java.spring.db.serv.BorrowingService;
 import org.java.spring.db.serv.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -60,7 +63,9 @@ public class BookController {
 	public String getBook(Model model,
 			@PathVariable int id) {
 		
-		Book book = bookService.findById(id);
+		Optional<Book> bookOpt = bookService.findById(id);
+		Book book = bookOpt.get();
+		
 		model.addAttribute("book", book);
 		
 		return "book";
@@ -89,7 +94,8 @@ public class BookController {
 			@PathVariable int id) {
 		
 		List<Category> categories = categoryService.findAll();
-		Book book = bookService.findById(id);
+		Optional<Book> bookOpt = bookService.findById(id);
+		Book book = bookOpt.get();
 		
 		model.addAttribute("categories", categories);
 		model.addAttribute("book", book);
@@ -107,7 +113,8 @@ public class BookController {
 	@PostMapping("/books/delete/{id}")
 	public String deleteBook(@PathVariable int id) {
 		
-		Book book = bookService.findById(id);
+		Optional<Book> bookOpt = bookService.findById(id);
+		Book book = bookOpt.get();
 		
 //		book.clearCategories();
 //		bookService.save(book);

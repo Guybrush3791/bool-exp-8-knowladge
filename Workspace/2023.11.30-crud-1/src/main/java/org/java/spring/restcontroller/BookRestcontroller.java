@@ -1,6 +1,7 @@
 package org.java.spring.restcontroller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.java.spring.db.pojo.Book;
 import org.java.spring.db.serv.BookService;
@@ -16,7 +17,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.service.annotation.DeleteExchange;
 
 @RestController
 @CrossOrigin
@@ -36,7 +36,10 @@ public class BookRestcontroller {
 	@GetMapping("{id}")
 	public ResponseEntity<Book> getBook(@PathVariable int id) {
 		
-		Book book = bookService.findById(id);
+		Optional<Book> bookOpt = bookService.findById(id);
+		if (bookOpt.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		
+		Book book = bookOpt.get();
 		
 		if (book == null) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		
@@ -56,7 +59,10 @@ public class BookRestcontroller {
 			@PathVariable int id,
 			@RequestBody Book newBook) {
 	
-		Book book = bookService.findById(id);
+		Optional<Book> bookOpt = bookService.findById(id);
+		if (bookOpt.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		
+		Book book = bookOpt.get();
 		
 		book.setTitle(newBook.getTitle());
 		book.setAuthor(newBook.getAuthor());
@@ -71,7 +77,12 @@ public class BookRestcontroller {
 	public ResponseEntity<Book> delete(
 			@PathVariable int id) {
 		
-		Book book = bookService.findById(id);
+		Optional<Book> bookOpt = bookService.findById(id);
+		if (bookOpt.isEmpty()) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		
+		Book book = bookOpt.get();
+		
+		if (book == null) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		
 		bookService.delete(book);
 		
