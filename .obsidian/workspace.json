@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-12-13 - spring-la-mia-pizzeria-webapi.md"
+                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md"
               }
             }
           },
@@ -162,7 +162,7 @@
   "lastOpenFiles": [
     "Snacks/2023-12-12 - spring-la-mia-pizzeria-security.md",
     "Snacks/2023-12-11 - spring-la-mia-pizzeria-relazioni.md",
-    "2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+    "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
     "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/restcontroller/BookRestcontroller.class",
     "Workspace/2023.11.30-crud-1/target/classes/org/java/spring/restcontroller",
     "Workspace/2023.11.30-crud-1/src/main/java/org/java/spring/restcontroller/BookRestcontroller.java",
