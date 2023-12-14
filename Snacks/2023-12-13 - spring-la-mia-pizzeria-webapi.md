@@ -2,6 +2,7 @@
 `spring-la-mia-pizzeria-webapi`
 
 ## Todo
+### Day 1
 > [!attention] IMPORTANTE
 > Ricordatevi di sganciare la vostra vecchia repository e di crearne una nuova per questo esercizio, che prosegue il lavoro della pizzeria, dove lo avevate lasciato
 
@@ -15,3 +16,11 @@ Diamo la possibilità di :
 - cancellare una pizza
 
 Queste operazioni devono poter essere eseguite tramite **PostMan**, non preoccupiamoci quindi della parte di **front-end** per ora.
+
+### Day 2
+> [!attention] IMPORTANTE
+> Continuiamo l’esercizio del giorno precedente, stessa repo
+
+Facciamo un altro sforzo: creiamo un semplice progetto front-end che richiami le nostre API e tramite `javascript`/`axios` mostri in pagina i dati.
+
+Vogliamo una pagina per la lista delle pizze (filtrabili per titolo), una per la creazione di una nuova pizza e il pulsante per la cancellazione di un elemento.
