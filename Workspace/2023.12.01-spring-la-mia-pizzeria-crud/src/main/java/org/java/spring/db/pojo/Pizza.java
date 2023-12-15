@@ -6,6 +6,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -44,6 +45,7 @@ public class Pizza {
 	private List<Discount> discounts;
 	
 	@ManyToMany
+	@JsonProperty
 	private List<Ingredient> ingredients;
 	
 	public Pizza() { }

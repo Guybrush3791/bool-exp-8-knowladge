@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+                "file": "Snacks/2023-12-15 - spring-il-mio-fotoalbum.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+                "file": "Snacks/2023-12-15 - spring-il-mio-fotoalbum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+                "file": "Snacks/2023-12-15 - spring-il-mio-fotoalbum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md"
+                "file": "Snacks/2023-12-15 - spring-il-mio-fotoalbum.md"
               }
             }
           },
@@ -158,13 +158,15 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "038357e6915635e2",
+  "active": "a65468d107a2dfa8",
   "lastOpenFiles": [
+    "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
+    "Snacks/2023-12-15 - spring-il-mio-fotoalbum.md",
+    "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/vite.config.js.timestamp-1702628776907-f12a70ef27eb5.mjs",
     "Snacks/2023-12-12 - spring-la-mia-pizzeria-security.md",
     "Snacks/2023-12-11 - spring-la-mia-pizzeria-relazioni.md",
     "Snacks/2023-12-04 - spring-la-mia-pizzeria-crud.md",
     "Snacks/2023-11-30 - spring-la-mia-pizzeria-crud.md",
-    "Snacks/2023-12-13 - spring-la-mia-pizzeria-webapi.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/src/components/PizzaForm.vue",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/src/components/PizzaCreate.vue",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/src/components/PizzaShow.vue",
@@ -182,7 +184,6 @@
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/CHANGELOG.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/dist/esm/axios.min.js.map",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/dist/axios.min.js.map",
-    "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/axios/dist/esm/axios.js.map",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/mime-db/README.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/mime-db/HISTORY.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/form-data/Readme.md",
@@ -195,7 +196,6 @@
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/asynckit/README.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/@esbuild/linux-x64/README.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/vue/README.md",
-    "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/node_modules/vite/README.md",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/src/assets/vue.svg",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/public/vite.svg",
     "Workspace/2023.12.01-spring-la-mia-pizzeria-crud/front-end/2023.12.01-spring-la-mia-pizzeria-front-end/src/assets/vue.svg",

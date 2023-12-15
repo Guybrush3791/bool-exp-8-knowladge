@@ -2,10 +2,12 @@ package org.java.spring.db.service;
 
 import java.util.List;
 
+import org.hibernate.Hibernate;
 import org.java.spring.db.pojo.Pizza;
 import org.java.spring.db.repo.PizzaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class PizzaServ {
@@ -13,9 +15,13 @@ public class PizzaServ {
 	@Autowired
 	private PizzaRepo pizzaRepo;
 	
+	@Transactional
 	public List<Pizza> findAll() {
 		
-		return pizzaRepo.findAll();
+		List<Pizza> pizzas = pizzaRepo.findAll();
+		
+		pizzas.forEach(p -> Hibernate.initialize(p.getIngredients()));		
+		return pizzas;
 	}
 	public Pizza findById(int id) {
 		
